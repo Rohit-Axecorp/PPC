@@ -1,0 +1,79 @@
+/* General banner styles */
+.banner {
+    background-color: #284155; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  /* Subheading styles */
+  .subheading {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Spectral", serif;
+    margin-bottom: 10px;
+  }
+  
+  /* Heading styles */
+  .heading {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Spectral", serif;
+    color: #20b2aa; /* Teal color */
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  /* Button group styles */
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Button base styles */
+  .btn {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Primary button styles */
+  .btn-primary {
+    background-color: #20b2aa; /* Teal */
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #20b2aa; /* Darker teal */
+  }
+  
+  /* Secondary button styles */
+  .btn-secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: white;
+    color: #1e3a52; /* Dark blue */
+  }
+  
+  /* Tertiary button styles */
+  .btn-tertiary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .btn-tertiary:hover {
+    background-color: white;
+    color: #1e3a52; /* Dark blue */
+  }
+  

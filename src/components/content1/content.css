@@ -1,0 +1,27 @@
+.content1-section{
+    padding: 75px 15px;
+  }
+  .content1_right .paragraph{
+    font-size: 15px;
+    line-height: 20px;
+    color: #232323;
+    font-weight: 400;
+  }
+  .content1_right .heading{
+    font-family: "Spectral", serif;
+    font-size: 24.5px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #232323;
+    margin-bottom: 10px;
+  }
+  .main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .content1-left img{
+    width: 500px;
+  }

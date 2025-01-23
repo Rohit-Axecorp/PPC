@@ -1,0 +1,63 @@
+.counter-container {
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.main-counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.counter {
+  text-align: center;
+  margin: 15px;
+}
+
+.counter h1 {
+  font-size: 47.6px;
+  font-weight: 600;
+  color: #232323;
+  font-family: "Spectral", serif;
+  margin: 0;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.counter p {
+  font-size: 14px;
+  color: #232323;
+  margin-top: 10px;
+  font-family: "Spectral", serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.content{
+  padding: 70px 15px;;
+}
+.content .paragraph{
+  font-size: 15px;
+  line-height: 20px;
+  color: #232323;
+  font-weight: 400;
+}
+.content .heading{
+  font-family: "Spectral", serif;
+  font-size: 24.5px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 10px;
+}
