@@ -7,6 +7,8 @@ import Features from '../../components/features/Features'
 import Content1 from '../../components/content1/Content1'
 import Tabs from '../../components/tabs/Tabs'
 import Content2 from '../../components/content2/Content2'
+import Publishing from '../../components/publishing/Publishing'
+import Logo from '../../components/logo/Logo'
 
 
 export default function Home() {
@@ -21,6 +23,8 @@ export default function Home() {
       <Content1 />
       <Tabs />
       <Content2 />
+      <Logo/>
+      <Publishing />
 
     </>
   )

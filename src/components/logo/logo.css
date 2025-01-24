@@ -1,0 +1,45 @@
+.mainlogo {
+  width: 100%;
+  padding: 40px 15px;
+  background-color: #f7f7f7;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-column {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-title {
+  color: #232323;
+  font-size: 24.5px;
+  font-weight: 500;
+}
+
+.right-column {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 0px 20px;
+}
+
+.logo-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+

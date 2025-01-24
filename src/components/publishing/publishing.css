@@ -1,0 +1,82 @@
+/* Parent Container */
+.panda-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./why-choose-bg.webp");
+  background-repeat: no-repeat;
+  background-position: -110px center;
+  background-size: contain;
+  gap: 20px;
+  padding: 100px 15px 0px;
+}
+
+/* Content Publishers */
+.content-publishers {
+  text-align: center;
+}
+
+.features-subtitle {
+  font-size: 16px;
+  color: #20b2aa;
+  font-weight: 500;
+}
+
+.features-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #232323;
+}
+
+/* Columns */
+.columns {
+  display: flex;
+  gap: 20px;
+}
+
+/* Left Column */
+.left-column {
+  flex: 1;
+  background-color: transparent; /* Placeholder for content or imagery */
+}
+
+/* Right Column */
+.panda-features {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+}
+
+/* Feature Boxes */
+.feature-box {
+  padding: 20px;
+}
+
+/* Background Colors */
+.gray-bg {
+  background-color: #f2f2f2; /* Light gray */
+}
+
+.white-bg {
+  background-color: #ffffff; /* White */
+}
+
+/* Text Styles */
+.feature-box h3 {
+  font-size: 20px;
+  color: #20b2aa;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-box h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #232323;
+}
+
+.feature-box p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #232323;
+}

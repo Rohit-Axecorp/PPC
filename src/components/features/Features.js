@@ -30,6 +30,7 @@ export default function Features() {
         <>
             <div className="features ">
                 <div className='container'>
+                    <div className='main-features'>
                     <h5 className="features-subtitle">What Sets Us Apart?</h5>
                     <h1 className="features-title">
                         Panda Publishing Is 100% Invested in Your Vision
@@ -43,6 +44,7 @@ export default function Features() {
                             </div>
                         ))}
                     </div>
+                </div>
                 </div>
             </div>
         </>

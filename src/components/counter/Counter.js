@@ -55,6 +55,7 @@ export default function Counter() {
 
       <div className="content">
         <div className="container">
+          <div className="main-content">
           <h2 className="heading">
             We Make Self Publishing Your Book Easy.
           </h2>
@@ -63,8 +64,8 @@ export default function Counter() {
           </p>
           <p className="paragraph">
             We’re here to simplify your journey. Whether you have a polished manuscript ready for publication or are at an earlier stage and require assistance with editing, proofreading, formatting, or even crafting your story from scratch with our ghostwriting services, our team of experienced professionals is here to guide you. We can also help you design a stunning cover that will grab readers’ attention and navigate the intricacies of Amazon Book Publishing to ensure your book reaches its target audience. Let Panda Publishing be your self-publish book partner in transforming your manuscript, or even your initial ideas, into a published masterpiece.
-
           </p>
+        </div>
         </div>
       </div>
     </>

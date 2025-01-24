@@ -61,26 +61,28 @@ export default function Tabs() {
         <>
             <div className="tabs">
                 <div className="container">
-                    <h5 className="tabs-subtitle">Our Process</h5>
-                    <h1 className="tabs-title">
-                        Here's How We Do Things at Panda Publishing
-                    </h1>
-                    <div className="tabs-container">
-                        <div className="tabs-list">
-                            {tabsData.map((tab) => (
-                                <div
-                                    key={tab.id}
-                                    className={`tab-item ${activeTab === tab.id ? "active" : ""
-                                        }`}
-                                    onClick={() => setActiveTab(tab.id)}
-                                >
-                                    <div className="tab-icon">{tab.icon}</div>
-                                    <div className="tab-title">{tab.title}</div>
-                                </div>
-                            ))}
-                        </div>
-                        <div className="tab-content">
-                            <p>{tabsData.find((tab) => tab.id === activeTab).description}</p>
+                    <div className="main-tabs">
+                        <h5 className="tabs-subtitle">Our Process</h5>
+                        <h1 className="tabs-title">
+                            Here's How We Do Things at Panda Publishing
+                        </h1>
+                        <div className="tabs-container">
+                            <div className="tabs-list">
+                                {tabsData.map((tab) => (
+                                    <div
+                                        key={tab.id}
+                                        className={`tab-item ${activeTab === tab.id ? "active" : ""
+                                            }`}
+                                        onClick={() => setActiveTab(tab.id)}
+                                    >
+                                        <div className="tab-icon">{tab.icon}</div>
+                                        <div className="tab-title">{tab.title}</div>
+                                    </div>
+                                ))}
+                            </div>
+                            <div className="tab-content">
+                                <p>{tabsData.find((tab) => tab.id === activeTab).description}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
