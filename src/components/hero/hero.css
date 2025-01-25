@@ -1,9 +1,12 @@
 .hero-section {
   background-image: url("./home-banner.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   background-color: #333;
   color: #fff;
-  padding: 60px 20px;
+  padding: 60px 15px;
 }
 
 .hero-content {
@@ -14,7 +17,7 @@
 }
 
 .hero-left {
-  max-width: 600px;
+  margin-right: 100px;
 }
 
 .hero-heading {
@@ -76,7 +79,6 @@
 .btn-animated:hover .btn-icon {
   transform: rotate(360deg);
 }
-
 
 .hero-right {
   background-color: #232323;

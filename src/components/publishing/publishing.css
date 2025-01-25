@@ -4,7 +4,7 @@
   flex-direction: column;
   background-image: url("./why-choose-bg.webp");
   background-repeat: no-repeat;
-  background-position: -110px center;
+  background-position: -110px bottom;
   background-size: contain;
   gap: 20px;
   padding: 100px 15px 0px;
@@ -22,9 +22,10 @@
 }
 
 .features-title {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 600;
   color: #232323;
+  font-family: "Spectral", serif;
 }
 
 /* Columns */

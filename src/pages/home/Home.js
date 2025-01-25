@@ -9,6 +9,11 @@ import Tabs from '../../components/tabs/Tabs'
 import Content2 from '../../components/content2/Content2'
 import Publishing from '../../components/publishing/Publishing'
 import Logo from '../../components/logo/Logo'
+import Portfolio from '../../components/portfolio/Portfolio'
+import Testimonials from '../../components/testimonials/Testimonials'
+import Cta from '../../components/cta/Cta'
+import Faqs from '../../components/faqs/Faqs'
+import Footer from '../../components/footer/Footer'
 
 
 export default function Home() {
@@ -23,8 +28,13 @@ export default function Home() {
       <Content1 />
       <Tabs />
       <Content2 />
-      <Logo/>
+      <Logo />
       <Publishing />
+      <Portfolio />
+      <Testimonials />
+      <Cta />
+      <Faqs />
+      <Footer />
 
     </>
   )

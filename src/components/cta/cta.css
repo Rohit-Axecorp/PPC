@@ -1,0 +1,62 @@
+.cta-section {
+    background-image: url("./cta-footer.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 60px 15px;
+  }
+  .cta-left{
+    width: 55%;
+  }
+  .cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .cta-heading {
+    font-family: "Spectral", serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #c3dd32;
+  }
+  
+  .cta-paragraph {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-right {
+    background-color: #00000075;
+    padding: 30px;
+    border-radius: 8px;
+    width: 45%;
+  }
+  
+  .form-heading {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "Spectral", serif;
+    margin-bottom: 15px;
+    color: #20b2aa;
+  }
+  
+  .cta-form .form-control {
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .cta-form .btn-success {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
