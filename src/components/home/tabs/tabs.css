@@ -76,9 +76,35 @@
   padding: 20px;
 }
 
-.main-tabs{
+.main-tabs {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+/* Responsive styles for 768px and below */
+@media (max-width: 768px) {
+  .tabs-list {
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .tab-item {
+    width: 100%;
+    max-width: 100%; /* Ensure tabs fill the container */
+  }
+
+  .tab-content {
+    padding: 15px;
+  }
+
+  .tabs-title {
+    font-size: 28px;
+  }
+
+  .tabs-subtitle {
+    font-size: 14px;
+  }
 }

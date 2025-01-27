@@ -1,7 +1,9 @@
+/* Base Styles for Counter */
 .counter-container {
   padding: 10px 15px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .main-counter {
   display: flex;
   justify-content: space-between;
@@ -35,6 +37,7 @@
   font-weight: 600;
 }
 
+/* Keyframe for FadeIn animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -46,18 +49,19 @@
   }
 }
 
-
-
-.content{
-  padding: 70px 15px;;
+/* Content Section */
+.content {
+  padding: 70px 15px;
 }
-.content .paragraph{
+
+.content .paragraph {
   font-size: 15px;
   line-height: 20px;
   color: #232323;
   font-weight: 400;
 }
-.content .heading{
+
+.content .heading {
   font-family: "Spectral", serif;
   font-size: 24.5px;
   line-height: 30px;
@@ -65,10 +69,100 @@
   color: #232323;
   margin-bottom: 10px;
 }
-.content .main-content{
+
+.content .main-content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .counter-container {
+    padding: 15px;
+  }
+
+  .main-counter {
+    flex-direction: column; /* Stack counters vertically */
+    align-items: center; /* Center the items */
+    gap: 20px; /* Add more space between counters */
+  }
+
+  .counter h1 {
+    font-size: 36px; /* Smaller font size */
+  }
+
+  .counter p {
+    font-size: 12px; /* Smaller text for mobile */
+  }
+
+  .content {
+    padding: 50px 0px;
+  }
+
+  .content .heading {
+    font-size: 22px; /* Smaller heading size */
+  }
+
+  .content .paragraph {
+    font-size: 14px; /* Adjust paragraph size */
+  }
+}
+
+/* Tablet responsiveness (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-counter {
+    flex-wrap: wrap; /* Allow counters to wrap */
+    justify-content: center; /* Center the counters */
+    gap: 20px; /* More space between counters */
+  }
+
+  .counter h1 {
+    font-size: 42px; /* Slightly smaller font for tablets */
+  }
+
+  .counter p {
+    font-size: 13px; /* Adjust text size for tablet */
+  }
+
+  .content {
+    padding: 60px 0px;
+  }
+
+  .content .heading {
+    font-size: 23px; /* Adjust heading font size */
+  }
+
+  .content .paragraph {
+    font-size: 14px; /* Adjust paragraph size */
+  }
+}
+
+/* Desktop (larger than 991px) */
+@media (min-width: 992px) {
+  .main-counter {
+    gap: 10px; /* Keep the smaller gap for large screens */
+  }
+
+  .counter h1 {
+    font-size: 47.6px; /* Retain original size */
+  }
+
+  .counter p {
+    font-size: 14px; /* Keep the font size consistent for desktop */
+  }
+
+  .content {
+    padding: 70px 15px;
+  }
+
+  .content .heading {
+    font-size: 24.5px; /* Retain original heading size */
+  }
+
+  .content .paragraph {
+    font-size: 15px; /* Keep the paragraph text size consistent */
+  }
 }

@@ -75,14 +75,12 @@
   &::-webkit-scrollbar-track {
     background: #555555; /* Track (background) color */
     border-radius: 10px;
-
   }
 
   &::-webkit-scrollbar-thumb {
     background: #20b2aa; /* Scroll thumb color */
     border-radius: 10px; /* Rounded corners for the thumb */
   }
-
 }
 
 .testimonial-heading {
@@ -96,4 +94,55 @@
   font-size: 15px;
   margin-bottom: 0.5rem;
   line-height: 20px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+  .testimonials-title {
+    font-size: 28px;
+  }
+  
+  .testimonial-card {
+    height: auto;
+    padding: 20px;
+  }
+
+  .testimonial-name {
+    font-size: 12px;
+  }
+
+  .testimonial-heading {
+    font-size: 13px;
+  }
+
+  .testimonial-subtitle {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    padding: 40px 15px;
+  }
+
+  .testimonials-title {
+    font-size: 24px;
+  }
+
+  .testimonial-card {
+    height: auto;
+    padding: 15px;
+  }
+
+  .testimonial-name {
+    font-size: 12px;
+  }
+
+  .testimonial-heading {
+    font-size: 12px;
+  }
+
+  .testimonial-subtitle {
+    font-size: 12px;
+  }
 }

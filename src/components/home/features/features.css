@@ -1,80 +1,165 @@
 /* General features container styles */
 .features {
-    text-align: center;
-    padding: 50px 15px;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.main-features {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Subtitle styles */
+.features-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #20b2aa; /* Teal */
+  margin-bottom: 10px;
+  font-family: "Spectral", serif;
+}
+
+/* Title styles */
+.features-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #232323; /* Dark blue */
+  font-family: "Spectral", serif;
+  margin: 25px 0px 50px;
+  line-height: 1.5;
+}
+
+/* Features cards container */
+.features-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Makes the layout responsive */
+}
+
+/* Individual feature card styles */
+.feature-card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 50px 35px 32px;
+  width: 32%; /* Fixed width for each card */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on feature card */
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon styles */
+.feature-icon {
+  font-size: 40px;
+  color: #38b2ac; /* Teal */
+  margin-bottom: 20px;
+}
+
+/* Feature card title */
+.feature-title {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Spectral", serif;
+  color: #232323; /* Dark blue */
+  margin-bottom: 10px;
+}
+
+/* Feature card description */
+.feature-description {
+  font-size: 15px;
+  font-weight: 500;
+  color: #232323; /* Dark blue */
+  line-height: 20px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .features {
+    padding: 40px 10px; /* Reduced padding for mobile */
   }
-  .main-features{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* Subtitle styles */
-  .features-subtitle {
-    font-size: 16px;
-    font-weight: 500;
-    color: #20b2aa; /* Teal */
-    margin-bottom: 10px;
-    font-family: "Spectral", serif;
- 
-  }
-  
-  /* Title styles */
+
   .features-title {
-    font-size: 32px;
-    font-weight: 600;
-    color: #232323; /* Dark blue */
-    font-family: "Spectral", serif;
-    margin: 25px 0px 50px;
-    line-height: 1.5;
+    font-size: 24px; /* Reduced heading font size */
+    margin: 15px 0 30px; /* Adjusted margin */
   }
-  
-  /* Features cards container */
-  .features-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap; /* Makes the layout responsive */
-  }
-  
-  /* Individual feature card styles */
+
   .feature-card {
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid  rgba(0, 0, 0, 0.1);
-    padding: 50px 35px 32px;
-    width: 32%; /* Fixed width for each card */
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Stack cards vertically */
+    padding: 30px 20px 25px; /* Adjusted padding */
+    margin-bottom: 20px; /* Added space between cards */
   }
-  
-  /* Hover effect on feature card */
-  .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Icon styles */
+
   .feature-icon {
-    font-size: 40px;
-    color: #38b2ac; /* Teal */
-    margin-bottom: 20px;
+    font-size: 30px; /* Adjusted icon size */
   }
-  
-  /* Feature card title */
+
   .feature-title {
-    font-size: 15px;
-    font-weight: 500;
-    font-family: "Spectral", serif;
-    color: #232323; /* Dark blue */
-    margin-bottom: 10px;
+    font-size: 14px; /* Adjusted title font size */
   }
-  
-  /* Feature card description */
+
   .feature-description {
-    font-size: 15px;
-    font-weight: 500;
-    color: #232323; /* Dark blue */
-    line-height: 20px;
+    font-size: 14px; /* Adjusted description font size */
   }
-  
+}
+
+/* Tablet responsiveness (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .features {
+    padding: 50px 0px; /* Default padding */
+  }
+
+  .features-title {
+    font-size: 28px; /* Adjusted heading font size */
+  }
+
+  .feature-card {
+    width: 48%; /* Two cards per row */
+    padding: 40px 25px 30px; /* Adjusted padding */
+  }
+
+  .feature-icon {
+    font-size: 35px; /* Adjusted icon size */
+  }
+
+  .feature-title {
+    font-size: 15px; /* Adjusted title font size */
+  }
+
+  .feature-description {
+    font-size: 14px; /* Adjusted description font size */
+  }
+}
+
+/* Desktop (min-width: 992px) */
+@media (min-width: 992px) {
+  .features {
+    padding: 50px 0px; /* Default padding */
+  }
+
+  .features-title {
+    font-size: 32px; /* Default heading font size */
+  }
+
+  .feature-card {
+    width: 32%; /* Default width for three cards per row */
+    padding: 50px 35px 32px; /* Default padding */
+  }
+
+  .feature-icon {
+    font-size: 40px; /* Default icon size */
+  }
+
+  .feature-title {
+    font-size: 15px; /* Default title font size */
+  }
+
+  .feature-description {
+    font-size: 15px; /* Default description font size */
+  }
+}

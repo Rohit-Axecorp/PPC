@@ -18,12 +18,14 @@
   color: #232323;
   font-family: "Spectral", serif;
 }
+
 /* Tabs navigation */
 .tabs {
   display: flex;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 60px;
+  flex-wrap: wrap; /* Allow tabs to wrap on smaller screens */
 }
 
 .tab-button {
@@ -45,14 +47,12 @@
   color: #232323;
   outline: none;
   border-bottom-color: #232323;
-
 }
 
 .tab-button.active {
   color: #232323;
   outline: none;
   border-bottom-color: #232323;
-
 }
 
 /* Portfolio grid */
@@ -71,4 +71,50 @@
   height: 450px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Media Queries */
+
+/* Medium Screens */
+@media (max-width: 768px) {
+  .portfolio-title {
+    font-size: 28px; /* Adjust title font size */
+  }
+
+  .tabs {
+    gap: 0.5rem; /* Adjust tab button spacing */
+    margin-bottom: 40px;
+  }
+
+  .tab-button {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Larger images, fewer columns */
+  }
+
+  .portfolio-image {
+    height: 300px; /* Adjust image height */
+  }
+}
+
+/* Small Screens */
+@media (max-width: 480px) {
+  .portfolio-title {
+    font-size: 24px; /* Further reduce title font size */
+  }
+
+  .tab-button {
+    font-size: 12px; /* Reduce font size further */
+    padding: 0.4rem 0.8rem; /* Adjust padding for smaller screens */
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Even fewer columns */
+  }
+
+  .portfolio-image {
+    height: 250px; /* Smaller images */
+  }
 }

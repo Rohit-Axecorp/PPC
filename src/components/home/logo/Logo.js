@@ -8,10 +8,8 @@ import './logo.css'; // Import the CSS file
 export default function Logo() {
     return (
         <>
-            <section className='mainlogo'>
+            <section className="mainlogo">
                 <div className="container">
-                  
-
                     {/* 30% Column */}
                     <div className="left-column">
                         <h1 className="brand-title">
@@ -23,10 +21,16 @@ export default function Logo() {
                     <div className="right-column">
                         <Swiper
                             modules={[Autoplay]}
-                            slidesPerView={5}
-                            spaceBetween={30}
                             autoplay={{ delay: 3000 }}
                             loop={true}
+                            spaceBetween={30}
+                            breakpoints={{
+                                320: { slidesPerView: 1 }, // 1 slide for small screens
+                                480: { slidesPerView: 2 }, // 2 slides for mobile
+                                768: { slidesPerView: 3 }, // 3 slides for tablets
+                                1024: { slidesPerView: 4 }, // 4 slides for desktops
+                                1440: { slidesPerView: 5 }, // 5 slides for larger screens
+                            }}
                         >
                             {/* Logo Slides */}
                             {[

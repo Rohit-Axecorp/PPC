@@ -1,3 +1,6 @@
+
+
+
 .hero-section {
   background-image: url("./home-banner.webp");
   background-position: center center;
@@ -5,7 +8,7 @@
   background-size: cover;
   width: 100%;
   color: #fff;
-  padding: 60px 15px;
+  padding: 60px 0px;
 }
 
 .hero-content {
@@ -31,6 +34,7 @@
   font-size: 15px;
   margin-bottom: 30px;
 }
+
 .button-group {
   display: flex;
   justify-content: center;
@@ -54,7 +58,6 @@
   color: white;
   margin-right: 20px;
   border-radius: 50px;
-
 }
 
 .btn-primary:hover {
@@ -67,7 +70,6 @@
   border: 2px solid white;
   color: white;
   border-radius: 50px;
-
 }
 
 .btn-secondary:hover {
@@ -91,4 +93,77 @@
   margin-bottom: 15px;
   color: #20b2aa;
   text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .hero-left {
+    margin-right: 20px;
+  }
+}
+   
+@media (max-width: 991px) {
+  .hero-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .hero-left {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .hero-heading {
+    font-size: 30px;
+  }
+
+  .hero-paragraph {
+    font-size: 14px;
+  }
+
+  .hero-right {
+    max-width: 100%;
+  }
+
+  .form-heading {
+    font-size: 22px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-group{
+    width: 80%;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .hero-heading {
+    font-size: 24px;
+  }
+
+  .hero-paragraph {
+    font-size: 12px;
+  }
+
+  .form-heading {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
+  .hero-section {
+    padding: 50px 0px;
+  }
 }

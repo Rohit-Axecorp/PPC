@@ -1,19 +1,20 @@
 .mainlogo {
   width: 100%;
-  padding: 40px 15px;
+  padding: 40px 0px;
   background-color: #f7f7f7;
 }
+
 .container {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+  justify-content: space-between; /* Adjusts spacing between elements */
   align-items: center;
 }
 
 .left-column {
-  width: 25%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%; /* Full width for smaller screens */
+  text-align: center; /* Center-align text on smaller screens */
+  margin-bottom: 20px; /* Adds spacing between columns */
 }
 
 .brand-title {
@@ -23,7 +24,7 @@
 }
 
 .right-column {
-  width: 75%;
+  width: 100%; /* Full width for smaller screens */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,7 +35,7 @@
   align-items: center;
   justify-content: center;
   height: 50px;
-  margin: 0px 20px;
+  margin: 0 10px; /* Reduced margin for better fit on smaller screens */
 }
 
 .logo-image {
@@ -43,3 +44,35 @@
   object-fit: contain;
 }
 
+@media (max-width: 1200px) {
+  .brand-title {
+    font-size: 20px; /* Larger font size for desktops */
+  }
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+  .container {
+    flex-wrap: nowrap; /* Prevent wrapping on medium and larger screens */
+  }
+
+  .left-column {
+    width: 30%; /* Allocates 30% for left column */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 0; /* Removes extra spacing */
+  }
+
+  .right-column {
+    width: 70%; /* Allocates 70% for right column */
+  }
+}
+
+@media (min-width: 1024px) {
+  .brand-title {
+    font-size: 28px; /* Larger font size for desktops */
+  }
+
+  .logo-container {
+    margin: 0 20px; /* Restores larger spacing */
+  }
+}

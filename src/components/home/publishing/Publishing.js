@@ -6,8 +6,8 @@ export default function Publishing() {
     <div className="panda-container">
       {/* Content Publishers Section */}
       <div className="content-publishers">
-        <h5 className="features-subtitle">Our Promise to You</h5>
-        <h1 className="features-title">What You Get with Panda Publishing</h1>
+        <h5 className="publishers-subtitle">Our Promise to You</h5>
+        <h1 className="publishers-title">What You Get with Panda Publishing</h1>
       </div>
 
       {/* Columns Section */}
