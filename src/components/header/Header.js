@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,44 +38,44 @@ export default function Header() {
           <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="dropdown" onClick={toggleDropdown}>
                 <a href="#services">Services</a>
                 {isDropdownOpen && (
                   <ul className="dropdown-menu">
                     <li>
-                      <a href="#publishing">Book Publishing</a>
+                      <Link to="/book-publishing-services">Book Publishing</Link>
                     </li>
                     <li>
-                      <a href="#amazon">Amazon Book Publishing</a>
+                      <Link to="/amazon">Amazon Book Publishing</Link>
                     </li>
                     <li>
-                      <a href="#childrens">Children's Book</a>
+                      <Link to="/childrens">Children's Book</Link>
                     </li>
                     <li>
-                      <a href="#marketing">Book Marketing</a>
+                      <Link to="/marketing">Book Marketing</Link>
                     </li>
                     <li>
-                      <a href="#ghostwriting">Ghostwriting</a>
+                      <Link to="/ghostwriting">Ghostwriting</Link>
                     </li>
                     <li>
-                      <a href="#illustration">Book Illustration</a>
+                      <Link to="/illustration">Book Illustration</Link>
                     </li>
                   </ul>
                 )}
               </li>
               <li>
-                <a href="#books">Our Books</a>
+                <Link to="/our-books">Our Books</Link>
               </li>
               <li>
-                <a href="#publishers">Our Publishers</a>
+                <Link to="/our-publishers">Our Publishers</Link>
               </li>
               <li>
-                <a href="#about">Who We Are</a>
+                <Link to="/who-we-are">Who We Are</Link>
               </li>
               <li>
-                <a href="#contact">Contact Us</a>
+                <Link to="/contact-us">Contact Us</Link>
               </li>
             </ul>
           </nav>

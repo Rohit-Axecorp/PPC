@@ -1,0 +1,164 @@
+/* General banner styles */
+.banner {
+  background-color: #284155; /* Dark blue */
+  color: white;
+  text-align: center;
+  padding: 60px 0px;
+}
+
+/* Subheading styles */
+.subheading {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Spectral", serif;
+  margin-bottom: 10px;
+}
+
+/* Heading styles */
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Spectral", serif;
+  color: #20b2aa; /* Teal color */
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* Button group styles */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Button base styles */
+.btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Primary button styles */
+.btn-primary {
+  background-color: #20b2aa; /* Teal */
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #20b2aa; /* Darker teal */
+}
+
+/* Secondary button styles */
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: #1e3a52; /* Dark blue */
+}
+
+/* Tertiary button styles */
+.btn-tertiary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-tertiary:hover {
+  background-color: white;
+  color: #1e3a52; /* Dark blue */
+}
+
+/* Mobile responsiveness */
+
+/* Mobile responsiveness */
+@media (max-width: 991px) {
+  .btn-primary {
+    margin-right: 0px;
+  }
+  .btn {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .banner {
+    padding: 40px 15px; /* Reduced padding for mobile */
+  }
+
+  .subheading {
+    font-size: 14px; /* Smaller font size */
+  }
+
+  .heading {
+    font-size: 24px; /* Reduced heading size */
+    margin-bottom: 20px; /* Reduced margin */
+  }
+
+  .button-group {
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Add space between buttons */
+  }
+
+  .btn {
+    font-size: 12px; /* Smaller font size for mobile */
+    padding: 10px 25px; /* Adjust padding for buttons */
+  }
+}
+
+/* Tablet responsiveness (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner {
+    padding: 50px 20px; /* Slightly reduced padding */
+  }
+
+  .subheading {
+    font-size: 15px; /* Adjusted subheading font size */
+  }
+
+  .heading {
+    font-size: 28px; /* Adjusted heading font size */
+    margin-bottom: 25px; /* Adjusted margin */
+  }
+
+  .button-group {
+    gap: 15px; /* Maintain gap for tablet */
+  }
+
+  .btn {
+    font-size: 13px; /* Adjusted button font size */
+    padding: 8px 20px; /* Adjusted padding for tablet */
+  }
+}
+
+/* Desktop (min-width: 992px) */
+@media (min-width: 992px) {
+  .banner {
+    padding: 60px 20px; /* Default padding for desktop */
+  }
+
+  .subheading {
+    font-size: 16px; /* Default subheading font size */
+  }
+
+  .heading {
+    font-size: 32px; /* Default heading font size */
+    margin-bottom: 30px; /* Default margin */
+  }
+
+  .button-group {
+    gap: 15px; /* Default button spacing */
+  }
+
+  .btn {
+    font-size: 14px; /* Default button font size */
+    padding: 5px 20px; /* Default padding */
+  }
+}

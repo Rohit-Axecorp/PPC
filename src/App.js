@@ -1,12 +1,22 @@
+import React from "react";
 import './App.css';
-import Home from './pages/home/Home';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import BookPublishing from "./pages/book-publishing-services";
 
 function App() {
   return (
     <>
-    
-    <Home/>
-    
+
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/book-publishing-services" element={<BookPublishing />} />
+
+        </Routes>
+      </Router>
+
+
     </>
   );
 }
