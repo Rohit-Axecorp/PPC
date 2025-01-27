@@ -1,0 +1,55 @@
+.form2 {
+  /* max-width: 500px; */
+  margin: 0 auto;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.form2-cta-form .form2-form-control {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.form2-cta-form .form2-input-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form2-cta-form .form2-input-row .form2-form-control {
+  flex: 1;
+}
+
+.form2-cta-form .form2-btn-primary {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #20b2aa;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form2-cta-form .form2-btn-primary:hover {
+  background-color: #20b2aa;
+}
+
+.form2-checkbox-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.form2-terms-label {
+  font-size: 11px;
+  color: #939393;
+  line-height: 14px;
+}

@@ -31,7 +31,7 @@ export default function Counter() {
   return (
     <>
       <div className="counter-container ">
-        <div className="container">
+
           <div className="main-counter">
             <div className="counter">
               <h1>{experience}+</h1>
@@ -49,7 +49,7 @@ export default function Counter() {
               <h1>{clients}+</h1>
               <p>Happy Clients</p>
             </div>
-          </div>
+    
         </div>
       </div>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./cta.css"
+import Form2 from '../../form2/Form2'
 
 export default function Cta() {
     return (
@@ -24,35 +25,7 @@ export default function Cta() {
                         <div className="cta-right">
                             <h2 className="form-heading">Fill Out Your Details and Get a First-Time Discount. It’s Free!
                             </h2>
-                            <form className="cta-form">
-                                <div className="mb-3">
-                                    <input
-                                        type="text"
-                                        id="name"
-                                        className="form-control"
-                                        placeholder="Enter your name"
-                                    />
-                                </div>
-                                <div className="mb-3">
-                                    <input
-                                        type="email"
-                                        id="email"
-                                        className="form-control"
-                                        placeholder="Enter your email"
-                                    />
-                                </div>
-                                <div className="mb-3">
-                                    <textarea
-                                        id="message"
-                                        className="form-control"
-                                        rows="4"
-                                        placeholder="Enter your message"
-                                    ></textarea>
-                                </div>
-                                <button type="submit" className="btn btn-success">
-                                    Submit
-                                </button>
-                            </form>
+                            <Form2 />
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,94 @@
+.hero-section {
+  background-image: url("./home-banner.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  padding: 60px 15px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-left {
+  margin-right: 120px;
+}
+
+.hero-heading {
+  font-family: "Spectral", serif;
+  font-size: 43.5px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #20b2aa;
+}
+
+.hero-paragraph {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Button base styles */
+.btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 5px 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Primary button styles */
+.btn-primary {
+  background-color: #20b2aa; /* Teal */
+  color: white;
+  margin-right: 20px;
+  border-radius: 50px;
+
+}
+
+.btn-primary:hover {
+  background-color: #20b2aa; /* Darker teal */
+}
+
+/* Secondary button styles */
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 50px;
+
+}
+
+.btn-secondary:hover {
+  background-color: white;
+  color: #1e3a52; /* Dark blue */
+}
+
+.hero-right {
+  background-color: rgba(0, 0, 0, 0.72);
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-heading {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: "Spectral", serif;
+  margin-bottom: 15px;
+  color: #20b2aa;
+  text-align: center;
+}

@@ -1,11 +1,15 @@
 .counter-container {
-  padding: 10px 0px;
+  padding: 10px 15px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .main-counter {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  gap: 10px;
+  max-width: 1110px;
+  width: 100%;
+  margin: auto;
 }
 
 .counter {
