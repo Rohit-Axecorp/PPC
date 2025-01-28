@@ -16,12 +16,12 @@
     display: inline-flex;
     align-items: center;
     font-size: 0.9rem;
-    color: #007B7B;
+    color: #20b2aa;
   }
   
   .breadcrumb-link {
     text-decoration: none;
-    color: #007B7B;
+    color: #20b2aa;
   }
   
   .breadcrumb-link:hover {
