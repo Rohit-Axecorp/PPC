@@ -2,7 +2,6 @@ import React from 'react'
 import Header from '../components/header/Header'
 import Hero from '../components/bookpublishing/hero/Hero'
 import Banner from '../components/bookpublishing/banner/Banner'
-import Features from '../components/bookpublishing/features/Features'
 import Content1 from '../components/bookpublishing/content1/Content1'
 import Tabs from '../components/bookpublishing/tabs/Tabs'
 import Content2 from '../components/bookpublishing/content2/Content2'
@@ -13,6 +12,7 @@ import Faqs from '../components/bookpublishing/faqs/Faqs'
 import Footer from '../components/footer/Footer'
 import Logoandcontent from '../components/bookpublishing/logoandcontent/Logoandcontent'
 import Contentline from '../components/bookpublishing/contentline/Contentline'
+import Features from '../components/bookpublishing/features/Features'
 
 
 export default function BookPublishing() {

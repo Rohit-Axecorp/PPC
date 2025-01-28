@@ -1,0 +1,39 @@
+.breadcrumb-section {
+    padding: 50px 0px;
+    background-color: #F7F7F7;
+    text-align: center;
+  }
+  
+  .page-title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #232323;
+    margin-bottom: 10px;
+    font-family: "Spectral", serif;
+  }
+  
+  .breadcrumb-nav {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #007B7B;
+  }
+  
+  .breadcrumb-link {
+    text-decoration: none;
+    color: #007B7B;
+  }
+  
+  .breadcrumb-link:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb-separator {
+    margin: 0 5px;
+    color: #555;
+  }
+  
+  .breadcrumb-current {
+    color: #333;
+    font-weight: 500;
+    }
