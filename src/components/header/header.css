@@ -15,6 +15,9 @@ a {
   padding: 10px 0;
   font-size: 14px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 .top-bar .container {
   display: flex;
@@ -42,6 +45,9 @@ a {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
+  position: sticky;
+  top: 41px;
+  z-index: 999;
 }
 .main-header .container {
   display: flex;
@@ -141,6 +147,7 @@ a {
 
   .navbar.open {
     display: flex;
+    padding: 5px;
   }
 
   .navbar ul {

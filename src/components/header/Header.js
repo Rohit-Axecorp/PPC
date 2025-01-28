@@ -30,7 +30,10 @@ export default function Header() {
       <header className="main-header">
         <div className="container">
           <div className="logo">
-            <img src="./images/lbp_logo.webp" alt="Logo" />
+            <Link to="/">
+              <img src="./images/lbp_logo.webp" alt="Logo" />
+            </Link>
+
           </div>
           <button className="menu-toggle" onClick={toggleMenu}>
             ☰
