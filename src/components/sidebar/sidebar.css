@@ -1,0 +1,82 @@
+/* Sidebar container */
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 1000;
+}
+
+/* Base styles for sidebar items */
+.sidebar-item {
+  background-color: #20b2aa;
+  color: white;
+  border-radius: 30px 0 0 30px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Expanded state for hover */
+.sidebar-item.expanded {
+  width: 200px; /* Expands on hover */
+}
+
+/* Icon styling */
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/* Text styling for expanded buttons */
+.text {
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+/* Call button styling */
+.call-button {
+  border-radius: 50px 0 0 50px;
+  padding: 0 0 0 10px;
+  width: 55px;
+  justify-content: center;
+}
+
+/* Get Started button styling */
+.get-started {
+  background-color: #20b2aa;
+  border-radius: 20px 0 0 20px;
+  width: 55px;
+  height: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-started .rotated-text {
+  transform: rotate(270deg);
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+@media only screen and (max-width:992px){
+    .sidebar{
+        display: none;
+    }
+}

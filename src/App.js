@@ -8,6 +8,9 @@ import Ourpublishers from "./pages/our-publishers";
 import Contactus from "./pages/contact-us";
 import Whoweare from "./pages/who-we-are";
 import LiveChat from "./components/livechat/Livechat";
+import ScrollToTop from "./components/scrolltotop/ScrollToTop";
+import Sidebar from "./components/sidebar/Sidebar";
+import Popup from "./components/popup/Popup";
 
 
 function App() {
@@ -28,6 +31,9 @@ function App() {
 
 
       <LiveChat />
+      <ScrollToTop />
+      <Sidebar />
+      <Popup />
     </>
   );
 }
