@@ -61,6 +61,12 @@
   margin-bottom: 20px;
 }
 
+.feature-icon img {
+  width: 100px;
+  object-fit: contain; /* Ensures the image scales nicely */
+  margin-bottom: 10px;
+}
+
 /* Feature card title */
 .feature-title {
   font-size: 20px;

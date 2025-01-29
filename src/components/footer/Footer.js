@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import "./footer.css"; // Import the CSS file
-
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -24,13 +24,13 @@ export default function Footer() {
                     <div className="footer-section">
                         <h3>Quick Links</h3>
                         <ul className="footer-links">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/books">Our Books</a></li>
-                            <li><a href="/publishers">Our Publishers</a></li>
-                            <li><a href="/contact">Contact Us</a></li>
-                            <li><a href="/contact">Who We Are</a></li>
-                            <li><a href="/terms">Terms & Conditions</a></li>
-                            <li><a href="/privacy">Privacy Policy</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/our-books">Our Books</Link></li>
+                            <li><Link to="/our-publishers">Our Publishers</Link></li>
+                            <li><Link to="/who-we-are">Who We Are</Link></li>
+                            <li><Link to="/contact-us">Contact Us</Link></li>
+                            <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
+                            <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </div>
 
@@ -38,11 +38,11 @@ export default function Footer() {
                     <div className="footer-section">
                         <h3>Our Services</h3>
                         <ul className="footer-links">
-                            <li><a href="/book-publishing">Book Publishing</a></li>
-                            <li><a href="/amazon">Amazon Book Publishing</a></li>
-                            <li><a href="/children">Children's Book</a></li>
-                            <li><a href="/marketing">Book Marketing</a></li>
-                            <li><a href="/barnes-noble">Barnes Noble Publishing</a></li>
+                            <li><Link to="/book-publishing-services">Book Publishing</Link></li>
+                            <li><Link to="/amazon">Amazon Book Publishing</Link></li>
+                            <li><Link to="/children">Children's Book</Link></li>
+                            <li><Link to="/marketing">Book Marketing</Link></li>
+                            <li><Link to="/barnes-noble">Barnes & Noble Publishing</Link></li>
                         </ul>
                     </div>
 
@@ -61,10 +61,9 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-bottom">
-                    © 2025 London Book Publishers 
+                    © 2025 London Book Publishers
                 </div>
             </footer>
-
         </>
-    )
+    );
 }

@@ -12,29 +12,22 @@ export default function Content2() {
                         <div className="content2_right">
 
                             <h2 className="heading">
-                                Your Book, Your Legacy – You Retain Complete Creative Control
+                                Use Expert Self-Book Publishing Services to Preserve Your Legacy!
                             </h2>
                             <p className="paragraph">
-                                We understand that your book is more than just words on a page; it’s a piece of your heart, a reflection of your creativity, and potentially a legacy you’re building. That’s why we firmly believe in empowering you throughout the self-publishing process.</p>
-                            <p className="paragraph">
-                                We believe in the power of your unique voice. Our editing team focuses on refining your writing for clarity and impact while preserving your authentic style and storytelling approach.
+                                Your book is more than just a story—it embodies your unique voice, experiences, and creativity. At Panda Publishing Agency, we believe every author deserves careful, accurate, and detail-oriented publishing services tailored to their needs and goals.
                             </p>
                             <p className="paragraph">
-                                Throughout the process, you’ll have complete control over all creative decisions. From accepting or declining editing suggestions to choosing the final cover design, the final say is always yours. We’re here to offer guidance and support, but the creative power remains firmly in your hands.
+                                Our team of qualified experts provides custom book publishing services designed to bring your artistic vision to life. From flawless editing and formatting to eye-catching cover design and effective marketing strategies, we offer comprehensive support every step of the way.
                             </p>
                             <p className="paragraph">
-                                When you publish with Panda Publishing, you retain all ownership rights to your work. We handle the logistics of publishing and distribution, but the copyright to your book remains yours, ensuring you reap the full benefits of your creative efforts.
+                                With our guidance and support, rest assured that your book will receive the utmost care and exposure to a wide audience. Want to publish your own book? Let us help you spread your message and create a lasting legacy through your published work. Our services extend across various publishing domains, ensuring client satisfaction and success. You'll find our rates competitive, and our dedicated customer representatives are available round-the-clock for your convenience.
                             </p>
-                            <p className="paragraph">
-                                With Panda Publishing as your partner, you can rest assured that your book will be a true reflection of your vision and legacy. We empower you to share your story with the world, self-publish a book, on your terms.
-
-                            </p>
-
                         </div>
 
                         {/* Right Column */}
                         <div className="content2-left">
-                            <img src='./images/what-is-ghostwriting.webp' alt='greenimage' />
+                            <img src='./images/fiction-writing.webp' alt='greenimage' />
                         </div>
 
                     </div>

@@ -16,7 +16,6 @@ import Popup from "./components/popup/Popup";
 function App() {
   return (
     <>
-
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -27,8 +26,6 @@ function App() {
           <Route path="/who-we-are" element={<Whoweare />} />
         </Routes>
       </Router>
-
-
 
       <LiveChat />
       <ScrollToTop />

@@ -10,22 +10,29 @@ export default function Content1() {
                     <div className="main-content">
                         {/* Left Column */}
                         <div className="content1-left">
-                            <img src='./images/home-intro.webp' alt='greenimage' />
+                            <img src='./images/fiction-writing-2.webp' alt='greenimage' />
                         </div>
 
                         {/* Right Column */}
                         <div className="content1_right">
 
                             <h2 className="heading">
-                                1389 (& Counting) Self-Published Books Later – Let Panda Publishing Be Your Guide.
+                                What Makes Our Book Publishing Services Stand Out?
                             </h2>
                             <p className="paragraph">
-                                These are the number of authors who have trusted Panda Publishing to help shepherd their books into the world! We are honored to have played a part in their success stories, and we’re eager to add yours to the list.</p>
-                            <p className="paragraph">
-                                Are you ready to join the ranks of these 1389+ self-published authors? Have you always wondered, “can you self-publish a book?” If you have a manuscript waiting to be unleashed on the world or even just a dream of becoming a published author, Panda Publishing is here to help you navigate the exciting path of book publishing.
+                                From ghostwriting to editing and publishing support, our comprehensive services cover all your book needs. Whether you seek help crafting a captivating storyline or refining your manuscript, our seasoned team is ready to assist. We are committed to delivering exceptional service and top-notch quality. Don't let your ideas languish—reach out to us and let's bring your book to fruition. As a leading book writing company, trust us to transform your book into a bestseller. Here are the perks you'll enjoy when you choose us:
                             </p>
                             <p className="paragraph">
-                                With our comprehensive suite of digital services, we’ll empower you to transform your creative vision into a polished, professional book and get it into the hands of readers everywhere. Feel free to explore our services today and let Panda Publishing be your guide on your self-publishing journey to success.
+                                Excellence in Work
+                            </p>
+                            <p className="paragraph">
+                                Timely Delivery
+                            </p>
+                            <p className="paragraph">
+                                Client Satisfaction
+                            </p>
+                            <p className="paragraph">
+                                Full Ownership
                             </p>
 
                         </div>
