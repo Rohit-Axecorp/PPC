@@ -58,6 +58,10 @@
   margin-bottom: 10px;
 }
 
+.tab-icon img {
+  width: 100px;
+}
+
 /* Tab title styles */
 .tab-title {
   font-size: 15px;

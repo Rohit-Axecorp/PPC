@@ -3,7 +3,7 @@ import "./publishing.css";
 
 export default function Publishing() {
   return (
-    <div className="panda-container">
+    <div className="panda-container" style={{marginTop:"100px"}}>
       {/* Content Publishers Section */}
       <div className="content-publishers">
         {/* <h5 className="publishers-subtitle">Our Promise to You</h5> */}
