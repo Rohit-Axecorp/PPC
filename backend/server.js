@@ -20,12 +20,12 @@ app.post("/send-email", (req, res) => {
     const { name, email, phone, description } = req.body;
 
     const transporter = nodemailer.createTransport({
-        host: 'londonbookpublishers.com', // Replace with your cPanel SMTP host (e.g., smtp.yourdomain.com)
+        host: 'londonbookpublisher.co.uk', // Replace with your cPanel SMTP host (e.g., smtp.yourdomain.com)
         port: 465,  // Use 465 for secure connection (SSL)
         secure: true, // true for 465, false for other ports
         auth: {
-            user: 'info@londonbookpublishers.com',  // Replace with your Namecheap cPanel email
-            pass: 'qVJ}D_U$8GzX',  // Replace with the password for your Namecheap email
+            user: 'info@londonbookpublisher.co.uk',  // Replace with your Namecheap cPanel email
+            pass: 'JDanHURgjdt,',  // Replace with the password for your Namecheap email
         },
     });
 

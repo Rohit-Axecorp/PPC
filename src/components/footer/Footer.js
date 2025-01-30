@@ -39,23 +39,23 @@ export default function Footer() {
                         <h3>Our Services</h3>
                         <ul className="footer-links">
                             <li><Link to="/book-publishing-services">Book Publishing</Link></li>
-                            <li><Link to="/amazon">Amazon Book Publishing</Link></li>
-                            <li><Link to="/children">Children's Book</Link></li>
-                            <li><Link to="/marketing">Book Marketing</Link></li>
-                            <li><Link to="/barnes-noble">Barnes & Noble Publishing</Link></li>
+                            <li><Link to="/amazon-book-publishing-services">Amazon Book Publishing</Link></li>
+                            <li><Link to="/childrens-book-services">Children's Book</Link></li>
+                            <li><Link to="/book-marketing-services">Book Marketing</Link></li>
+                            <li><Link to="/ghostwriting-services">Ghostwriting</Link></li>
+                            <li><Link to="/book-illustration-services">Book Illustration</Link></li>
                         </ul>
                     </div>
 
                     {/* Contact Information */}
                     <div className="footer-section">
                         <h3>Contact Us</h3>
-                        <p className="footer-text"><strong>Mailing Address:</strong> 1650 Market Street Suite 3600 Philadelphia 19103</p>
+                        <p className="footer-text"><strong>Mailing Address:</strong> 226, Empire House, 1 Empire Way, Wembley Park, Wembley HA9 0EW, United Kingdom</p>
                         <p className="footer-text"><strong>2nd Mailing Address:</strong> 515 Flower St, Los Angeles, CA 90071</p>
-                        <p className="footer-text"><strong>Toll-Free Number:</strong> 1 877-633-0753</p>
-                        <p className="footer-text"><strong>Phone Number:</strong> +1 210-888-0060</p>
+                        <p className="footer-text"><a href="tel:+44 020 4615 6000"><strong>Phone Number:</strong> +44 020 4615 6000</a></p>
                         <p className="footer-text">
                             <strong>Email Address:</strong>{" "}
-                            <a href="mailto:info@pandapublishing.agency">info@pandapublishing.agency</a>
+                            <a href="mailto:info@londonbookpublishers.com">info@pandapublishing.agency</a>
                         </p>
                     </div>
                 </div>
