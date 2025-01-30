@@ -36,19 +36,19 @@ app.post("/send-email", (req, res) => {
         text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${description}`, // Include all details
     };
 
-transporter.sendMail(mailOptions, (error, info) => {
-    if (error) {
-        console.error('Error while sending email:', error);
-        // Send error response with the error message
-        res.status(500).json({ message: 'An error occurred while sending the email.' });
-    } else {
+    // Send email and handle the response
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            console.error('Error while sending email:', error);
+            // Send a detailed error response
+            return res.status(500).json({ message: 'An error occurred while sending the email.', error: error.toString() });
+        }
+
         console.log('Email sent successfully:', info.response);
-        // Send success response back to the front-end
+        // Send success response back to the frontend
         res.status(200).json({ message: 'Email sent successfully!' });
-    }
+    });
 });
-
-
 
 // Start the server
 app.listen(PORT, () => {

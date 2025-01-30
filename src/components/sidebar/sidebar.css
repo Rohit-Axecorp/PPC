@@ -29,9 +29,12 @@
 
 /* Expanded state for hover */
 .sidebar-item.expanded {
-  width: 200px; /* Expands on hover */
+  width: 220px; /* Expands on hover */
 }
-
+.sidebar a:hover{
+  color: white;
+  text-decoration: none;
+}
 /* Icon styling */
 .icon {
   font-size: 20px;

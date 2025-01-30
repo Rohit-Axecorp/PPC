@@ -1,0 +1,41 @@
+.contentline {
+  padding: 70px 0px;
+}
+
+.contentline .paragraph {
+  font-size: 15px;
+  line-height: 20px;
+  color: #232323;
+  font-weight: 400;
+}
+
+.contentline .heading {
+  font-family: "Spectral", serif;
+  font-size: 54px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 20px;
+}
+
+.contentline .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+@media (max-width: 767px) {
+  .contentline {
+    padding: 50px 0px;
+  }
+
+  .contentline .heading {
+    font-size: 30px; /* Smaller heading size */
+    line-height: 35px;
+  }
+
+  .contentline .paragraph {
+    font-size: 14px; /* Adjust paragraph size */
+  }
+}

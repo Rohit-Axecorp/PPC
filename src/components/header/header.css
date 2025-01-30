@@ -19,6 +19,11 @@ a {
   top: 0;
   z-index: 999;
 }
+
+.top-bar a:hover{
+  color: #232323;
+  text-decoration: none;
+}
 .top-bar .container {
   display: flex;
   justify-content: flex-end;
@@ -132,7 +137,7 @@ a {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .menu-toggle {
     display: block;
   }

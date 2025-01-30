@@ -33,19 +33,16 @@ const LiveChat = () => {
         })(window, document, [].slice);
     }, []);
 
-    const openChat = () => {
-        if (window.LiveChatWidget) {
-            window.LiveChatWidget.call('maximize'); // Opens the LiveChat widget
-        } else {
-            console.error('LiveChatWidget is not initialized.');
-        }
-    };
+    return null; // No need to render anything
+};
 
-    return (
-        <button id="open-livechat" onClick={openChat}>
-            Open LiveChat
-        </button>
-    );
+// Expose openChat function globally
+export const openChat = () => {
+    if (window.LiveChatWidget) {
+        window.LiveChatWidget.call("maximize"); // Open LiveChat
+    } else {
+        console.error("LiveChatWidget is not initialized.");
+    }
 };
 
 export default LiveChat;

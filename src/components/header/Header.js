@@ -20,8 +20,8 @@ export default function Header() {
       <div className="top-bar">
         <div className="container">
           <div className="top-bar-right">
-            <span className="phone">Toll Free Number: +1 877-633-0753</span>
-            <span className="email">Email Us</span>
+            <span className="phone"><a href="tel:+44 020 4615 6000">Phone Number: +44 020 4615 6000</a></span>
+            <span className="email"><a href="mailto:info@londonbookpublishers.com">Email Us</a></span>
           </div>
         </div>
       </div>
@@ -54,19 +54,19 @@ export default function Header() {
                       <Link to="/book-publishing-services">Book Publishing</Link>
                     </li>
                     <li>
-                      <Link to="/amazon">Amazon Book Publishing</Link>
+                      <Link to="/amazon-book-publishing-services">Amazon Book Publishing</Link>
                     </li>
                     <li>
-                      <Link to="/childrens">Children's Book</Link>
+                      <Link to="/childrens-book-services">Children's Book</Link>
                     </li>
                     <li>
-                      <Link to="/marketing">Book Marketing</Link>
+                      <Link to="/book-marketing-services">Book Marketing</Link>
                     </li>
                     <li>
-                      <Link to="/ghostwriting">Ghostwriting</Link>
+                      <Link to="/ghostwriting-services">Ghostwriting</Link>
                     </li>
                     <li>
-                      <Link to="/illustration">Book Illustration</Link>
+                      <Link to="/book-illustration-services">Book Illustration</Link>
                     </li>
                   </ul>
                 )}

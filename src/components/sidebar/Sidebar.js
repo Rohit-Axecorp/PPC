@@ -3,13 +3,12 @@ import "./sidebar.css"; // Custom CSS file
 import { MdCall } from "react-icons/md";
 import { TbMessages } from "react-icons/tb";
 import Popup from "../popup/Popup";
+import { openChat } from "../livechat/Livechat";
 
 const Sidebar = () => {
     const [hoveredButton, setHoveredButton] = useState(null);
     const [isPopupOpen, setIsPopupOpen] = useState(false); // State for managing popup visibility
 
-    // Handlers for button interactions
-    const openLiveChat = () => alert("Opening live chat...");
     const callUs = () => (window.location.href = "tel:+1234567890");
     const openGetStartedPopup = () => setIsPopupOpen(true); // Set the popup to open
     const closePopup = () => setIsPopupOpen(false); // Set the popup to close
@@ -22,7 +21,7 @@ const Sidebar = () => {
                     className={`sidebar-item call-button ${hoveredButton === "chat" ? "expanded" : ""}`}
                     onMouseEnter={() => setHoveredButton("chat")}
                     onMouseLeave={() => setHoveredButton(null)}
-                    onClick={openLiveChat}
+                    onClick={openChat}
                 >
                     <span className="icon">
                         <TbMessages size={28} />
@@ -40,7 +39,7 @@ const Sidebar = () => {
                     <span className="icon">
                         <MdCall size={28} />
                     </span>
-                    {hoveredButton === "call" && <span className="text">+1 877-633-0753</span>}
+                    {hoveredButton === "call" && <span className="text"><a href="tel:+44 020 4615 6000">+44 020 4615 6000</a></span>}
                 </div>
 
                 {/* Get Started Button */}
@@ -54,6 +53,8 @@ const Sidebar = () => {
 
             {/* Pass the state and close function to Popup */}
             <Popup isOpen={isPopupOpen} closePopup={closePopup} />
+
+
         </>
     );
 };

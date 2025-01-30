@@ -1,0 +1,39 @@
+import React from 'react'
+import Header from '../components/header/Header'
+import Hero from '../components/ghostwriting/hero/Hero'
+import Content1 from '../components/ghostwriting/content1/Content1'
+import Content2 from '../components/ghostwriting/content2/Content2'
+import Publishing from '../components/ghostwriting/publishing/Publishing'
+import Testimonials from '../components/ghostwriting/testimonials/Testimonials'
+import Cta from '../components/ghostwriting/cta/Cta'
+import Faqs from '../components/ghostwriting/faqs/Faqs'
+import Footer from '../components/footer/Footer'
+import Logoandcontent from '../components/ghostwriting/logoandcontent/Logoandcontent'
+import Contentline from '../components/ghostwriting/contentline/Contentline'
+import Banner2 from '../components/ghostwriting/banner2/Banner2'
+import Features from '../components/ghostwriting/features/Features'
+import ServicesTabs from '../components/ghostwriting/tabs/ServicesTabs'
+
+
+export default function Ghostwriting() {
+    return (
+        <>
+
+            <Header />
+            <Hero />
+            <Logoandcontent />
+            <Contentline />
+            <Banner2 />
+            <Features />
+            <Content2 />
+            <ServicesTabs />
+            <Content1 />
+            <Publishing />
+            <Testimonials />
+            <Cta />
+            <Faqs />
+            <Footer />
+
+        </>
+    )
+}

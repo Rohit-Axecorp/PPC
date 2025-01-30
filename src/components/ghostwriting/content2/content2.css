@@ -1,0 +1,114 @@
+/* General styles for content2-section */
+.content2-section {
+  padding: 75px 0px;
+}
+
+/* Paragraph styles */
+.content2_right .paragraph {
+  font-size: 15px;
+  line-height: 20px;
+  color: #232323;
+  font-weight: 400;
+}
+
+/* Heading styles */
+.content2_right .heading {
+  font-family: "Spectral", serif;
+  font-size: 24.5px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 10px;
+}
+
+/* Main content layout */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Image styles */
+.content2-left img {
+  width: 500px;
+}
+
+/* Mobile responsiveness (max-width: 767px) */
+@media (max-width: 767px) {
+  .content2-section {
+    padding: 40px 0px; /* Reduced padding for mobile */
+  }
+
+  .main-content {
+    flex-direction: column; /* Stack the columns vertically */
+    align-items: center; /* Center content */
+    gap: 30px; /* Reduced gap between columns */
+  }
+
+  .content2-left img {
+    width: 100%; /* Make image responsive */
+    max-width: 400px; /* Maximum width for the image */
+  }
+
+  .content2_right .heading {
+    font-size: 22px; /* Adjusted heading font size for mobile */
+    text-align: center; /* Center the heading */
+  }
+
+  .content2_right .paragraph {
+    font-size: 14px; /* Reduced font size */
+    line-height: 18px; /* Adjusted line height */
+    text-align: center; /* Center-align text */
+  }
+}
+
+/* Tablet responsiveness (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .content2-section {
+    padding: 60px 0px; /* Default padding */
+  }
+
+  .main-content {
+    flex-direction: column; /* Columns side by side */
+    gap: 40px; /* Adjusted gap */
+  }
+
+  .content2-left img {
+    width: 90%; /* Slightly adjusted image width */
+    max-width: 450px; /* Maximum image width */
+  }
+
+  .content2_right .heading {
+    font-size: 24px; /* Default heading font size for tablet */
+  }
+
+  .content2_right .paragraph {
+    font-size: 14px; /* Slightly smaller text */
+  }
+}
+
+/* Desktop responsiveness (min-width: 992px) */
+@media (min-width: 992px) {
+  .content2-section {
+    padding: 75px 0px; /* Default padding */
+  }
+
+  .main-content {
+    display: flex; /* Default flex layout */
+    justify-content: space-between;
+    gap: 50px; /* Standard gap */
+  }
+
+  .content2-left img {
+    width: 500px; /* Default image width */
+  }
+
+  .content2_right .heading {
+    font-size: 24.5px; /* Default heading font size */
+  }
+
+  .content2_right .paragraph {
+    font-size: 15px; /* Default paragraph size */
+  }
+}

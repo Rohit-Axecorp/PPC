@@ -31,7 +31,8 @@ export default function Form2() {
 
             const result = await response.json();
             if (response.ok) {
-                alert('Email sent successfully!');
+               
+                window.location.href = '/thank-you'; // If using React Router, use history.push('/thank-you')
             } else {
                 alert(`Failed to send email: ${result.message}`);
             }
