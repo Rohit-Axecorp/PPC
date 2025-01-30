@@ -11,6 +11,8 @@ import LiveChat from "./components/livechat/Livechat";
 import ScrollToTop from "./components/scrolltotop/ScrollToTop";
 import Sidebar from "./components/sidebar/Sidebar";
 import Popup from "./components/popup/Popup";
+import Privacypolicy from "./pages/privacy-policy";
+import Termsandconditions from "./pages/terms-and-conditions";
 
 
 function App() {
@@ -24,8 +26,12 @@ function App() {
           <Route path="/our-publishers" element={<Ourpublishers />} />
           <Route path="/contact-us" element={<Contactus />} />
           <Route path="/who-we-are" element={<Whoweare />} />
+          <Route path="/privacy-policy" element={<Privacypolicy />} />
+          <Route path="/terms-and-conditions" element={<Termsandconditions />} />
         </Routes>
       </Router>
+
+
 
       <LiveChat />
       <ScrollToTop />

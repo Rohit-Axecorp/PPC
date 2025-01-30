@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
+import Popup from "../popup/Popup";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isPopupOpen, setIsPopupOpen] = useState(false); // State for managing popup visibility
+  const openGetStartedPopup = () => setIsPopupOpen(true); // Set the popup to open
+  const closePopup = () => setIsPopupOpen(false); // Set the popup to close
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-  };
-
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
   };
 
   return (
@@ -33,7 +33,6 @@ export default function Header() {
             <Link to="/">
               <img src="./images/lbp_logo.webp" alt="Logo" />
             </Link>
-
           </div>
           <button className="menu-toggle" onClick={toggleMenu}>
             ☰
@@ -43,7 +42,11 @@ export default function Header() {
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li className="dropdown" onClick={toggleDropdown}>
+              <li
+                className="dropdown"
+                onMouseEnter={() => setIsDropdownOpen(true)}
+                onMouseLeave={() => setIsDropdownOpen(false)}
+              >
                 <a href="#services">Services</a>
                 {isDropdownOpen && (
                   <ul className="dropdown-menu">
@@ -82,9 +85,10 @@ export default function Header() {
               </li>
             </ul>
           </nav>
-          <button className="quote-btn">Request Quote</button>
+          <button className="quote-btn" onClick={openGetStartedPopup}>Request Quote</button>
         </div>
       </header>
+      <Popup isOpen={isPopupOpen} closePopup={closePopup} />
     </>
   );
 }
