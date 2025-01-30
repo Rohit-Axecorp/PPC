@@ -9,13 +9,10 @@ export default function Contentline() {
                 <div className="container">
                     <div className="main-content">
                         <h2 className="heading">
-                            We Make Self Publishing Your Book Easy.
+                            Top-notch Ghostwriting Services Available!
                         </h2>
                         <p className="paragraph">
-                            We know how difficult it is to handle the various stages of self-publishing a book, especially if you are an aspiring author looking to get your first book published. Panda Publishing started as a small group of friends who enjoyed reading classical and contemporary literature sharing notes, thoughts, and interpretation. That love blossomed into starting a then-small self-publishing firm called Panda Publishing. Now, we are a team of over 100 industry-vetted and like-minded professionals offering digital services to help aspiring writers and authors looking to make a mark in the literary world and cement their legacy.
-                        </p>
-                        <p className="paragraph">
-                            We’re here to simplify your journey. Whether you have a polished manuscript ready for publication or are at an earlier stage and require assistance with editing, proofreading, formatting, or even crafting your story from scratch with our ghostwriting services, our team of experienced professionals is here to guide you. We can also help you design a stunning cover that will grab readers’ attention and navigate the intricacies of Amazon Book Publishing to ensure your book reaches its target audience. Let Panda Publishing be your self-publish book partner in transforming your manuscript, or even your initial ideas, into a published masterpiece.
+                            In search of ghostwriting services USA? Look no further, as Panda Publishing has got you covered! Our talented and experienced ghostwriters bring stories to life with their remarkable skills. Whether you seek a detailed narrative, a tale set in a fantastical realm, or a depiction of life's highs and lows, our writers are here for you. It's time to engage a ghostwriter and share your story with the world! We'll lend your tale a compelling voice that inspires, motivates, and captivates audiences.
                         </p>
                     </div>
                 </div>

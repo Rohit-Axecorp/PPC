@@ -12,16 +12,33 @@ export default function Content2() {
                         <div className="content2_right">
 
                             <h2 className="heading">
-                                Use Expert Self-Book Publishing Services to Preserve Your Legacy!
+                                Panda Publishing Is Not Your Run-of-the-Mill Publishers
                             </h2>
                             <p className="paragraph">
-                                Your book is more than just a story—it embodies your unique voice, experiences, and creativity. At Panda Publishing Agency, we believe every author deserves careful, accurate, and detail-oriented publishing services tailored to their needs and goals.
+                                Forget the dusty image of traditional publishing houses. Here at Panda Publishing, we’re a forward-thinking firm that embraces the dynamism of the modern publishing landscape. We believe in the power of stories, but we also believe in breaking the mold to bring them to life.
                             </p>
                             <p className="paragraph">
-                                Our team of qualified experts provides custom book publishing services designed to bring your artistic vision to life. From flawless editing and formatting to eye-catching cover design and effective marketing strategies, we offer comprehensive support every step of the way.
+                                <b>We Champion Innovation
+                                </b>
+                                <br />
+                                We don’t shy away from unconventional ideas. We thrive on exploring new avenues to showcase your work, whether it’s embracing emerging technologies or utilizing creative marketing strategies.
                             </p>
                             <p className="paragraph">
-                                With our guidance and support, rest assured that your book will receive the utmost care and exposure to a wide audience. Want to publish your own book? Let us help you spread your message and create a lasting legacy through your published work. Our services extend across various publishing domains, ensuring client satisfaction and success. You'll find our rates competitive, and our dedicated customer representatives are available round-the-clock for your convenience.
+                                <b>We Speak Your Language
+                                </b>
+                                <br />
+                                We understand that authors today are tech-savvy and involved. And if you are not, no worries. We value transparency and open communication, keeping you informed and engaged throughout the publishing journey.
+                            </p>
+                            <p className="paragraph">
+                                <b>We Break Down Barriers
+
+                                </b>
+                                <br />
+                                Traditional publishing can feel rigid and impersonal. We prioritize fostering a collaborative partnership where your voice is heard, and your vision is respected. We’re here to empower you, not dictate your story.
+
+                                <br />
+
+                                We want you to think of us as your publishing partner, not the gatekeepers. We believe in bending the traditional rules to help your book stand out in a crowded marketplace.
                             </p>
                         </div>
 

@@ -5,22 +5,23 @@ const features2 = [
     {
         id: 1,
         icon: "/images/100.png", // Replace this with your actual image path
-        title: "Personalized Support",
+        title: "We Are 100% Invested.",
         description:
-            "At Panda Publishing Agency, we understand every author is unique. That's why we offer personalized support tailored to your specific needs, ensuring that your vision and voice shine through every page of your book."    },
+            "Your book is your passion, and we share your enthusiasm. We believe in the potential of your story and are fully committed to its success. We don’t just publish books; we become invested partners, working tirelessly to see your vision come to life."
+    },
     {
-            id: 2,
-            icon: "/images/88.png", // Replace this with your actual image path
-            title: "Myriad of Distribution Channels",
-            description:
-                "We don’t limit your reach. We can make your book available on over 40 distribution platforms and on major online retailers like Amazon, Barnes and Noble, Apple Books, IngramSpark, and more, maximizing your potential audience.",
-        },
+        id: 2,
+        icon: "/images/88.png", // Replace this with your actual image path
+        title: "We Respect Your Time.",
+        description:
+            "Writing a book takes immense dedication. The last thing you need is the added stress of handling the technicalities of self-publishing. We take care of the complexities – editing, formatting, cover design, and publishing – so you can focus on what you do best – writing and nurturing your creative spark."
+    },
     {
         id: 3,
         icon: "/images/77.png", // Replace this with your actual image path
-        title: "Book Marketing & Author Branding",
+        title: "We Are with You Every Step of the Way.",
         description:
-            "We go beyond just publishing your book. We provide guidance on building your author brand and offer marketing support to help you connect with readers and promote your work effectively.",
+            "The publishing journey doesn’t end with hitting publish. Panda Publishing is by your side throughout the entire process. We offer constant support, clear communication, and ongoing guidance to ensure you feel informed and empowered every step of the way. You’re never alone – we’re here to answer your questions, celebrate your milestones, and help you navigate the exciting world of Amazon publishing."
     },
 ];
 
@@ -29,10 +30,10 @@ export default function Features() {
         <div className="features">
             <div className="container">
                 <div className="main-features">
-                    <h5 className="features-subtitle">Our Approach
+                    <h5 className="features-subtitle">What Makes Us Different?
                     </h5>
                     <h1 className="features-title">
-                        Crafting Your Masterpiece: Our Approach to Book Publishing Services
+                        Why Partner Up with Panda Publishing?
                     </h1>
                     <div className="features-cards">
                         {features2.map((feature2) => (

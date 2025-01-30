@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="hero-content">
             {/* Left Column */}
             <div className="hero-left">
-              <h1 className="hero-heading">Crack Your Story's Potential: Our Comprehensive Book Publishing Services
+              <h1 className="hero-heading">We Take the Stress Out of Amazon Book Publishing.
               </h1>
               <p className="hero-paragraph">
                 Step into excellence with Panda Publishing Agency's Book Publishing Services. Our team unlocks your story's potential with manuscript evaluation, editing, design, marketing, and distribution. Experience the thrill of seeing your book in readers' hands. Whether a first-time author or seasoned writer, we offer professional support and personalized attention. Let us turn your literary dreams into reality!
@@ -42,7 +42,7 @@ export default function Hero() {
       </section>
       <Popup isOpen={isPopupOpen} closePopup={closePopup} />
 
-      
+
 
     </>
   );

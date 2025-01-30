@@ -5,23 +5,23 @@ const features2 = [
     {
         id: 1,
         icon: "/images/100.png", // Replace this with your actual image path
-        title: "Personalized Support",
+        title: "Experience and Expertise",
         description:
-            "At Panda Publishing Agency, we understand every author is unique. That's why we offer personalized support tailored to your specific needs, ensuring that your vision and voice shine through every page of your book."    },
-    {
-            id: 2,
-            icon: "/images/88.png", // Replace this with your actual image path
-            title: "Myriad of Distribution Channels",
-            description:
-                "We don’t limit your reach. We can make your book available on over 40 distribution platforms and on major online retailers like Amazon, Barnes and Noble, Apple Books, IngramSpark, and more, maximizing your potential audience.",
-        },
+            "Panda Publishing has the experience and insight to turn your idea into a gripping children's book that appeals to readers of all ages. The company has years of experience in the publishing industry and a staff of seasoned professionals."
+
+    }, {
+        id: 2,
+        icon: "/images/88.png", // Replace this with your actual image path
+        title: "Commitment to Diversity and Inclusion",
+        description:
+            "We are fervent supporters of stories from a range of cultures, ethnicities, and viewpoints in children's literature. We work to build a more inclusive literary landscape that reflects the rich fabric of our planet by welcoming many voices and experiences."
+    },
     {
         id: 3,
         icon: "/images/77.png", // Replace this with your actual image path
-        title: "Book Marketing & Author Branding",
+        title: "Exceptional Quality",
         description:
-            "We go beyond just publishing your book. We provide guidance on building your author brand and offer marketing support to help you connect with readers and promote your work effectively.",
-    },
+            "From editing and illustrations to design and printing, we take great delight in providing publishing services of the highest caliber. Our steadfast dedication to perfection guarantees that the level of originality and craftsmanship in your children's book will be the highest."    },
 ];
 
 export default function Features() {

@@ -16,10 +16,11 @@ export default function Hero() {
           <div className="hero-content">
             {/* Left Column */}
             <div className="hero-left">
-              <h1 className="hero-heading">Crack Your Story's Potential: Our Comprehensive Book Publishing Services
+              <h1 className="hero-heading">
+                Discover the Most Budget-Friendly Book Illustration Services!
               </h1>
               <p className="hero-paragraph">
-                Step into excellence with Panda Publishing Agency's Book Publishing Services. Our team unlocks your story's potential with manuscript evaluation, editing, design, marketing, and distribution. Experience the thrill of seeing your book in readers' hands. Whether a first-time author or seasoned writer, we offer professional support and personalized attention. Let us turn your literary dreams into reality!
+                If you're a self-published author seeking top-notch illustration to transform your book into a work of art, you've come to the perfect spot! At Panda Publishing, we offer exceptional and cost-effective book illustration services tailored to your requirements, ensuring your storytelling passion continues unhindered.
               </p>
               <div className="btn-group">
                 <button className="btn btn-primary" onClick={openGetStartedPopup}>
@@ -42,7 +43,7 @@ export default function Hero() {
       </section>
       <Popup isOpen={isPopupOpen} closePopup={closePopup} />
 
-      
+
 
     </>
   );

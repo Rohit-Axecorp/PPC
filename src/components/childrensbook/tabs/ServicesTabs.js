@@ -4,38 +4,52 @@ import "./services-tabs.css";
 const tabsData = [
     {
         id: 1,
-        icon: "./images/55.png",
-        title: "Manuscript Review and Editing",
+        icon: "./images/1111.png",
+        title: "Consultation",
         description:
-            "Delve deep into your story, refining plots, characters, and language to capture its essence brilliantly.",
+            "Begin with an in-depth discussion to understand your vision and goals"
     },
     {
         id: 2,
-        icon: "./images/33.png",
-        title: "Book Design",
+        icon: "./images/88.png",
+        title: "Evaluation",
         description:
-            "Craft visuals that narrate a story even before the first page. Design covers that capture your narrative's essence and attract potential readers.",
+            "Our team assesses your manuscript for strengths and areas of improvement."
     },
     {
         id: 3,
         icon: "./images/22.png",
-        title: "Printing and Binding",
+        title: "Writer Selection",
         description:
-            "Merge cutting-edge technology with artisan skills to create each book as a masterpiece. Crisp pages, vibrant colors, and quality binding ensure a delightful reading experience.",
+            "We match you with a skilled writer to bring your story to life."
     },
     {
         id: 4,
-        icon: "./images/88.png",
-        title: "Marketing and Promotion",
+        icon: "./images/33.png",
+        title: "Illustration & Design",
         description:
-            "Ensure your book reaches eager readers. Ignite curiosity and excitement, propelling your book to the forefront of literary conversations",
+            "Collaborate with our illustrators and designers to create captivating visuals."
     },
     {
         id: 5,
-        icon: "./images/66.png",
-        title: "Book Distribution",
+        icon: "./images/44.png",
+        title: "Editing & Proofreading",
         description:
-            "Leverage Amazon's global reach to bring your story to readers worldwide. Whether in print or digital format, make your story accessible on Amazon's platforms, connecting with readers globally.",
+            "Meticulously polish your manuscript for impeccable quality."
+    },
+    {
+        id: 6,
+        icon: "./images/55.png",
+        title: "Printing & Distribution",
+        description:
+            "Handle the logistics to ensure your book reaches young readers worldwide."
+    },
+    {
+        id: 7,
+        icon: "./images/66.png",
+        title: "Marketing & Support",
+        description:
+            "Develop tailored marketing strategies and provide ongoing support for your book's success."
     },
 ];
 
@@ -43,11 +57,10 @@ export default function ServicesTabs() {
     const [activeTab, setActiveTab] = useState(1);
     return (
         <div className="services-tabs">
-            <div className="services-container">
+            <div className="container">
                 <div className="services-main-tabs">
-                    <h5 className="services-tabs-subtitle">Our Process</h5>
                     <h1 className="services-tabs-title">
-                        Here's How We Do Things at Panda Publishing
+                    Children's Book Publishing Services Process
                     </h1>
                     <div className="services-tabs-container">
                         <div className="services-tabs-list">
