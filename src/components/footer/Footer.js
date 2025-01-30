@@ -51,7 +51,6 @@ export default function Footer() {
                     <div className="footer-section">
                         <h3>Contact Us</h3>
                         <p className="footer-text"><strong>Mailing Address:</strong> 226, Empire House, 1 Empire Way, Wembley Park, Wembley HA9 0EW, United Kingdom</p>
-                        <p className="footer-text"><strong>2nd Mailing Address:</strong> 515 Flower St, Los Angeles, CA 90071</p>
                         <p className="footer-text"><a href="tel:+44 020 4615 6000"><strong>Phone Number:</strong> +44 020 4615 6000</a></p>
                         <p className="footer-text">
                             <strong>Email Address:</strong>{" "}
