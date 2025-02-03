@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './hero.css';
-import Form from '../../form/Form';
+import Form2 from "../../form2/Form2";
 import Popup from '../../popup/Popup';
 import { openChat } from "../../livechat/Livechat";
 
@@ -35,14 +35,14 @@ export default function Hero() {
             <div className="hero-right">
               <h2 className="form-heading">Fill Out Your Details and Get a First-Time Discount. It’s Free!
               </h2>
-              <Form />
+              <Form2 />
             </div>
           </div>
         </div>
       </section>
       <Popup isOpen={isPopupOpen} closePopup={closePopup} />
 
-      
+
 
     </>
   );

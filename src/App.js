@@ -19,6 +19,7 @@ import Childrensbook from "./pages/childrens-book-services";
 import Bookmarketing from "./pages/book-marketing-services";
 import Ghostwriting from "./pages/ghostwriting-services";
 import Bookillustration from "./pages/book-illustration-services";
+import GoogleTagManager from "./components/googletagmanager/GoogleTagManager";
 
 
 function App() {
@@ -47,8 +48,8 @@ function App() {
 
 
 
-      
 
+      <GoogleTagManager />
       <LiveChat />
       <ScrollToTop />
       <Sidebar />

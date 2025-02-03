@@ -4,10 +4,9 @@ import "./contentline.css"
 export default function Contentline() {
     return (
         <>
-
-            <div className="contentline">
+            <div className="thanku">
                 <div className="container">
-                    <div className="main-content">
+                    <div className="main-thanku">
                         <h2 className="heading">
                             Million Dollar Question – Do You Need Amazon Book Publishing Service?
                         </h2>

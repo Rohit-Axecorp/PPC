@@ -1,0 +1,15 @@
+.thanku .heading {
+  font-family: "Spectral", serif;
+  font-size: 54px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .thanku .heading {
+    font-size: 30px; /* Smaller heading size */
+    line-height: 35px;
+  }
+}
