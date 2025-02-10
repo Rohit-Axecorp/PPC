@@ -11,8 +11,8 @@ export default function Banner2() {
     return (
         <>
             <div className="banner2">
-                <h5 className="subheading2">Having Trouble Publishing on Amazon?</h5>
-                <h1 className="heading2">Hire Industry-Vetted Publishers with Panda Publishing!
+                <h5 className="subheading2">Finding it difficult to manage Amazon Publishing?</h5>
+                <h1 className="heading2">Hire Industry-Known Publishers with London Book Publishers
                 </h1>
                 <div className="button-group2">
                     <button className="btn2 btn-primary2" onClick={openGetStartedPopup}>Get A Quote</button>

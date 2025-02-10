@@ -16,11 +16,10 @@ export default function Hero() {
           <div className="hero-content">
             {/* Left Column */}
             <div className="hero-left">
-              <h1 className="hero-heading">Inspiring Tomorrow's Authors Today: Experience Our Professional Children's Book Publishing Services
+              <h1 className="hero-heading">Bring Your Children’s Book to Life with Expert Services
               </h1>
               <p className="hero-paragraph">
-                We at Panda Publishing are aware of the great delight and importance of children's books. Our complete Children's Book Publishing Services are designed to satisfy your every need, whether you're a seasoned writer looking to captivate young minds with your inventive tales or an aspiring author with a charming tale to offer.
-              </p>
+                At London Book Publishers, we specialise in bringing your children’s book vision to life. From expert editing and age-appropriate formatting to vibrant illustrations and seamless publishing, we ensure that every step of the process is tailored to engage young readers. With our comprehensive services, your book will not only capture the imagination of children but also meet the highest standards in publishing. Let us help you create a book that educates, entertains, and inspires.              </p>
               <div className="btn-group">
                 <button className="btn btn-primary" onClick={openGetStartedPopup}>
                   Request A Callback

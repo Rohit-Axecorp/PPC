@@ -12,16 +12,16 @@ export default function Content2() {
                         <div className="content2_right">
 
                             <h2 className="heading">
-                                Use Expert Self-Book Publishing Services to Preserve Your Legacy!
+                                Why Choose Our Ghostwriting Services?
                             </h2>
                             <p className="paragraph">
-                                Your book is more than just a story—it embodies your unique voice, experiences, and creativity. At Panda Publishing Agency, we believe every author deserves careful, accurate, and detail-oriented publishing services tailored to their needs and goals.
+                                At London Book Publishers, we provide affordable ghostwriting services without sacrificing quality. Our packages are designed to deliver exceptional results at a price point that ensures your literary aspirations are within reach, without going over budget.
                             </p>
                             <p className="paragraph">
-                                Our team of qualified experts provides custom book publishing services designed to bring your artistic vision to life. From flawless editing and formatting to eye-catching cover design and effective marketing strategies, we offer comprehensive support every step of the way.
+                                Our team of skilled ghostwriters is versatile and experienced in every genre. Whether it’s fiction, non-fiction, memoirs, or any other type of writing, we can turn your vision into a fully fleshed-out manuscript, tailored to your unique style and goals.
                             </p>
                             <p className="paragraph">
-                                With our guidance and support, rest assured that your book will receive the utmost care and exposure to a wide audience. Want to publish your own book? Let us help you spread your message and create a lasting legacy through your published work. Our services extend across various publishing domains, ensuring client satisfaction and success. You'll find our rates competitive, and our dedicated customer representatives are available round-the-clock for your convenience.
+                                We pride ourselves on punctuality and professionalism. Our writers, who rank among the top 3% in the country, are committed to meeting deadlines while maintaining the highest standard of quality. When you work with us, you can trust that your project will be completed on time and to your satisfaction.
                             </p>
                         </div>
 

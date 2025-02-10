@@ -5,37 +5,30 @@ const tabsData = [
     {
         id: 1,
         icon: "./images/55.png",
-        title: "Manuscript Review and Editing",
+        title: "Edit Your Book",
         description:
-            "Delve deep into your story, refining plots, characters, and language to capture its essence brilliantly.",
+            "Get your book edited to make it refined and ready for publishing. This might require line, developmental or copy editing. ",
     },
     {
         id: 2,
         icon: "./images/33.png",
-        title: "Book Design",
+        title: "Publish Your Book",
         description:
-            "Craft visuals that narrate a story even before the first page. Design covers that capture your narrative's essence and attract potential readers.",
+            "Get your book published once it is done with editing, formatting and typesetting. Go for print-on-demand, marketing and other services for best results. ",
     },
     {
         id: 3,
         icon: "./images/22.png",
-        title: "Printing and Binding",
+        title: "Print Your Book",
         description:
-            "Merge cutting-edge technology with artisan skills to create each book as a masterpiece. Crisp pages, vibrant colors, and quality binding ensure a delightful reading experience.",
+            "Get your book printed in hardcover and paperback formats with quality paper and printing.",
     },
     {
         id: 4,
         icon: "./images/88.png",
-        title: "Marketing and Promotion",
+        title: "Sell Your Book",
         description:
             "Ensure your book reaches eager readers. Ignite curiosity and excitement, propelling your book to the forefront of literary conversations",
-    },
-    {
-        id: 5,
-        icon: "./images/66.png",
-        title: "Book Distribution",
-        description:
-            "Leverage Amazon's global reach to bring your story to readers worldwide. Whether in print or digital format, make your story accessible on Amazon's platforms, connecting with readers globally.",
     },
 ];
 
@@ -47,7 +40,7 @@ export default function ServicesTabs() {
                 <div className="services-main-tabs">
                     <h5 className="services-tabs-subtitle">Our Process</h5>
                     <h1 className="services-tabs-title">
-                        Here's How We Do Things at Panda Publishing
+                        Publishing Assistance in Every Step of the Process
                     </h1>
                     <div className="services-tabs-container">
                         <div className="services-tabs-list">

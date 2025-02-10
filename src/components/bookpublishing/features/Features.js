@@ -7,20 +7,21 @@ const features2 = [
         icon: "/images/100.png", // Replace this with your actual image path
         title: "Personalized Support",
         description:
-            "At Panda Publishing Agency, we understand every author is unique. That's why we offer personalized support tailored to your specific needs, ensuring that your vision and voice shine through every page of your book."    },
+            "At London Book Publishers, we offer a complete package of services to help authors at every step of their publishing journey. We take care of the details that might hold you back, ensuring a smooth and stress-free process."
+    },
     {
-            id: 2,
-            icon: "/images/88.png", // Replace this with your actual image path
-            title: "Myriad of Distribution Channels",
-            description:
-                "We don’t limit your reach. We can make your book available on over 40 distribution platforms and on major online retailers like Amazon, Barnes and Noble, Apple Books, IngramSpark, and more, maximizing your potential audience.",
-        },
+        id: 2,
+        icon: "/images/88.png", // Replace this with your actual image path
+        title: "Myriad of Distribution Channels",
+        description:
+            "A great book cover and illustrations are essential for making your book stand out. Our expert team will design an eye-catching cover and create illustrations that bring your content to life, ensuring it grabs the attention of readers."
+    },
     {
         id: 3,
         icon: "/images/77.png", // Replace this with your actual image path
         title: "Book Marketing & Author Branding",
         description:
-            "We go beyond just publishing your book. We provide guidance on building your author brand and offer marketing support to help you connect with readers and promote your work effectively.",
+            "We also handle editing, formatting, printing, and publishing, ensuring your book is polished and professionally presented. With access to top printing technology and a deep understanding of publishing platforms, we help you get your book into stores and online. Additionally, our marketing services ensure your book reaches the right audience and builds a strong presence."
     },
 ];
 
@@ -32,7 +33,7 @@ export default function Features() {
                     <h5 className="features-subtitle">Our Approach
                     </h5>
                     <h1 className="features-title">
-                        Crafting Your Masterpiece: Our Approach to Book Publishing Services
+                        A Complete Package for Book Publishing Services at One Place
                     </h1>
                     <div className="features-cards">
                         {features2.map((feature2) => (

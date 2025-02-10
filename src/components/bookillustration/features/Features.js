@@ -5,22 +5,23 @@ const features2 = [
     {
         id: 1,
         icon: "/images/100.png", // Replace this with your actual image path
-        title: "Personalized Support",
+        title: "Creative Collaboration",
         description:
-            "At Panda Publishing Agency, we understand every author is unique. That's why we offer personalized support tailored to your specific needs, ensuring that your vision and voice shine through every page of your book."    },
+            "We believe in working closely with authors, ensuring their vision is brought to life through illustrations that resonate with the story and captivate the audience. Regular communication and feedback allow us to fine-tune the details to your satisfaction."
+    },
     {
-            id: 2,
-            icon: "/images/88.png", // Replace this with your actual image path
-            title: "Myriad of Distribution Channels",
-            description:
-                "We don’t limit your reach. We can make your book available on over 40 distribution platforms and on major online retailers like Amazon, Barnes and Noble, Apple Books, IngramSpark, and more, maximizing your potential audience.",
-        },
+        id: 2,
+        icon: "/images/88.png", // Replace this with your actual image path
+        title: "Expert Illustrators",
+        description:
+            "Our team consists of highly skilled, award-winning illustrators who are experts in turning ideas into visually stunning artwork. Their attention to detail ensures that every illustration elevates the narrative, engaging readers from the first page to the last.",
+    },
     {
         id: 3,
         icon: "/images/77.png", // Replace this with your actual image path
-        title: "Book Marketing & Author Branding",
+        title: "Proven Track Record",
         description:
-            "We go beyond just publishing your book. We provide guidance on building your author brand and offer marketing support to help you connect with readers and promote your work effectively.",
+            "With decades of experience and over 800 successfully completed projects, we have the expertise to handle every aspect of book illustration. From concept to completion, we deliver exceptional quality and creative solutions tailored to your project’s needs.",
     },
 ];
 
@@ -32,7 +33,7 @@ export default function Features() {
                     <h5 className="features-subtitle">Our Approach
                     </h5>
                     <h1 className="features-title">
-                        Crafting Your Masterpiece: Our Approach to Book Publishing Services
+                        Our Approach to Book Illustration
                     </h1>
                     <div className="features-cards">
                         {features2.map((feature2) => (

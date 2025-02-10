@@ -16,11 +16,10 @@ export default function Hero() {
           <div className="hero-content">
             {/* Left Column */}
             <div className="hero-left">
-              <h1 className="hero-heading">We Take the Stress Out of Amazon Book Publishing.
+              <h1 className="hero-heading">Simplify Your Publishing Journey with Our Amazon Publishing Services
               </h1>
               <p className="hero-paragraph">
-                Step into excellence with Panda Publishing Agency's Book Publishing Services. Our team unlocks your story's potential with manuscript evaluation, editing, design, marketing, and distribution. Experience the thrill of seeing your book in readers' hands. Whether a first-time author or seasoned writer, we offer professional support and personalized attention. Let us turn your literary dreams into reality!
-              </p>
+                With our Amazon Publishing services, we make the process of getting your book onto one of the world’s largest platforms seamless and hassle-free. From formatting and editing to publishing and marketing, we handle everything for you, ensuring your book is optimised for success. Say goodbye to the stress of inventory management with our Print-On-Demand services, which allow you to publish without the risk. Whether you’re new to publishing or an experienced author, we guide you every step of the way to ensure your book reaches the right audience on Amazon.              </p>
               <div className="btn-group">
                 <button className="btn btn-primary" onClick={openGetStartedPopup}>
                   Request A Callback

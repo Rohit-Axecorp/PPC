@@ -15,26 +15,12 @@ export default function Content1() {
 
                         {/* Right Column */}
                         <div className="content1_right">
-
                             <h2 className="heading">
-                                What Makes Our Book Publishing Services Stand Out?
+                                Why Choose London Book Publishers for Book Illustration Services?
                             </h2>
                             <p className="paragraph">
-                                From ghostwriting to editing and publishing support, our comprehensive services cover all your book needs. Whether you seek help crafting a captivating storyline or refining your manuscript, our seasoned team is ready to assist. We are committed to delivering exceptional service and top-notch quality. Don't let your ideas languish—reach out to us and let's bring your book to fruition. As a leading book writing company, trust us to transform your book into a bestseller. Here are the perks you'll enjoy when you choose us:
+                                At London Book Publishers, we provide top-tier book illustration services, bringing your stories to life with stunning visuals. Our experienced illustrators specialize in diverse styles and genres, ensuring each piece resonates with your audience. We collaborate closely with authors to create illustrations that align perfectly with their vision and enhance the storytelling experience. From concept development to the final artwork, we ensure every detail is meticulously crafted. Beyond delivering exceptional illustrations, we build lasting relationships with our clients, offering continuous support to help their books stand out.
                             </p>
-                            <p className="paragraph">
-                                Excellence in Work
-                            </p>
-                            <p className="paragraph">
-                                Timely Delivery
-                            </p>
-                            <p className="paragraph">
-                                Client Satisfaction
-                            </p>
-                            <p className="paragraph">
-                                Full Ownership
-                            </p>
-
                         </div>
                     </div>
                 </div>

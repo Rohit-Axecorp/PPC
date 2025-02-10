@@ -9,10 +9,10 @@ export default function Contentline() {
                 <div className="container">
                     <div className="main-content">
                         <h2 className="heading">
-                            Top-notch Ghostwriting Services Available!
+                            Exceptional Ghostwriting Services Tailored to Your Vision
                         </h2>
                         <p className="paragraph">
-                            In search of ghostwriting services USA? Look no further, as Panda Publishing has got you covered! Our talented and experienced ghostwriters bring stories to life with their remarkable skills. Whether you seek a detailed narrative, a tale set in a fantastical realm, or a depiction of life's highs and lows, our writers are here for you. It's time to engage a ghostwriter and share your story with the world! We'll lend your tale a compelling voice that inspires, motivates, and captivates audiences.
+                            At London Book Publishers, our skilled ghostwriters bring your ideas to life, capturing your unique style and voice. Whether you’re an experienced author or just starting out, we ensure the final manuscript resonates with your audience and reflects your vision perfectly. Let us help you create a captivating book that leaves a lasting impact.
                         </p>
                     </div>
                 </div>

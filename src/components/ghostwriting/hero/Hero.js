@@ -16,10 +16,10 @@ export default function Hero() {
           <div className="hero-content">
             {/* Left Column */}
             <div className="hero-left">
-              <h1 className="hero-heading">Allow our expert Ghost Writing Services to infuse vitality into your narrative!
+              <h1 className="hero-heading">Our Ghostwriting Team Get You a Book That Is Admired by Everyone
               </h1>
               <p className="hero-paragraph">
-                Step into excellence with Panda Publishing Agency's Book Publishing Services. Our team unlocks your story's potential with manuscript evaluation, editing, design, marketing, and distribution. Experience the thrill of seeing your book in readers' hands. Whether a first-time author or seasoned writer, we offer professional support and personalized attention. Let us turn your literary dreams into reality!
+                In the modern age, making time to actually write a book can be a hassle. Hire our ghostwriting team to get your idea in the market to avoid that for yourself. We have been doing it for years and all you need to provide is an idea, and we take care of the rest.
               </p>
               <div className="btn-group">
                 <button className="btn btn-primary" onClick={openGetStartedPopup}>

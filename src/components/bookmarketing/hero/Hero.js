@@ -16,10 +16,10 @@ export default function Hero() {
           <div className="hero-content">
             {/* Left Column */}
             <div className="hero-left">
-              <h1 className="hero-heading">Targeted, Sales-Driven Book Marketing Services.
+              <h1 className="hero-heading">Let Everyone Know About Your Book By Relying On Our Marketing Services
               </h1>
               <p className="hero-paragraph">
-                Are you a published author who’s struggling with book sales? You are not alone. It is impossible to stand out from millions of books, thousands in your particular genre and niche, without conducting a potent book marketing campaign. This is where we extend our expertise to authors who want their work to be seen. We sell books through a targeted book marketing campaign tailored to your book’s niche, genre, audience, and more.
+                The world has changed drastically over the past decades, and today, if you don’t exist online, you don’t exist at all. Develop yourself and your book as a brand in front of the world by relying on our expert marketing team. The marketing team at London Book Publishers has strategies and approaches that get the word out and get you in business!
               </p>
               <div className="btn-group">
                 <button className="btn btn-primary" onClick={openGetStartedPopup}>

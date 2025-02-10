@@ -5,37 +5,37 @@ const tabsData = [
     {
         id: 1,
         icon: "./images/55.png",
-        title: "Manuscript Review and Editing",
+        title: "Personalised Ghostwriting Services",
         description:
-            "Delve deep into your story, refining plots, characters, and language to capture its essence brilliantly.",
+            "We tailor each manuscript to match your unique voice, style, and vision, ensuring the final product reflects your ideas perfectly.",
     },
     {
         id: 2,
         icon: "./images/33.png",
-        title: "Book Design",
+        title: "Thorough Research and Planning",
         description:
-            "Craft visuals that narrate a story even before the first page. Design covers that capture your narrative's essence and attract potential readers.",
+            "We conduct in-depth research to ensure your book is both authentic and engaging, resonating with your intended audience.",
     },
     {
         id: 3,
         icon: "./images/22.png",
-        title: "Printing and Binding",
+        title: "Collaborative Writing Experience",
         description:
-            "Merge cutting-edge technology with artisan skills to create each book as a masterpiece. Crisp pages, vibrant colors, and quality binding ensure a delightful reading experience.",
+            "We actively involve you throughout the writing process, ensuring your feedback shapes the direction of the manuscript.",
     },
     {
         id: 4,
         icon: "./images/88.png",
-        title: "Marketing and Promotion",
+        title: "Quality and Consistency",
         description:
-            "Ensure your book reaches eager readers. Ignite curiosity and excitement, propelling your book to the forefront of literary conversations",
+            "We maintain high writing standards, providing regular updates and ensuring your manuscript stays on track.",
     },
     {
         id: 5,
         icon: "./images/66.png",
-        title: "Book Distribution",
+        title: "Refining and Polishing",
         description:
-            "Leverage Amazon's global reach to bring your story to readers worldwide. Whether in print or digital format, make your story accessible on Amazon's platforms, connecting with readers globally.",
+            "Our team refines your manuscript, polishing every detail to ensure it meets the highest standards before publication.",
     },
 ];
 
@@ -47,7 +47,7 @@ export default function ServicesTabs() {
                 <div className="services-main-tabs">
                     <h5 className="services-tabs-subtitle">Our Process</h5>
                     <h1 className="services-tabs-title">
-                        Here's How We Do Things at Panda Publishing
+                        Our Approach to Exceptional Ghostwriting
                     </h1>
                     <div className="services-tabs-container">
                         <div className="services-tabs-list">

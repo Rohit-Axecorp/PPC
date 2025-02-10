@@ -17,23 +17,11 @@ export default function Content1() {
                         <div className="content1_right">
 
                             <h2 className="heading">
-                                What Makes Our Book Publishing Services Stand Out?
+                                Assistance in your literary journey at every step
                             </h2>
                             <p className="paragraph">
-                                From ghostwriting to editing and publishing support, our comprehensive services cover all your book needs. Whether you seek help crafting a captivating storyline or refining your manuscript, our seasoned team is ready to assist. We are committed to delivering exceptional service and top-notch quality. Don't let your ideas languish—reach out to us and let's bring your book to fruition. As a leading book writing company, trust us to transform your book into a bestseller. Here are the perks you'll enjoy when you choose us:
-                            </p>
-                            <p className="paragraph">
-                                Excellence in Work
-                            </p>
-                            <p className="paragraph">
-                                Timely Delivery
-                            </p>
-                            <p className="paragraph">
-                                Client Satisfaction
-                            </p>
-                            <p className="paragraph">
-                                Full Ownership
-                            </p>
+                                At London Book Publishers, we guide you through every step of your literary journey with an author-focused approach. First, we assist with book designing, ensuring that your written content, illustrations, and graphics are all professionally created. Our dedicated team is ready to help bring your ideas to life. Once your book is written and formatted, we can support you with the printing process, ensuring the proper sizes and formats are used. When the printed copies are ready, we handle distribution, ensuring your book reaches the right places for visibility and sales. Lastly, our marketing team is always available to help promote your work, creating strategies to increase awareness and engagement. Reach out to us for a seamless publishing experience from start to finish.                            </p>
+
 
                         </div>
                     </div>

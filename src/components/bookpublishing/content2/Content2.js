@@ -12,17 +12,14 @@ export default function Content2() {
                         <div className="content2_right">
 
                             <h2 className="heading">
-                                Use Expert Self-Book Publishing Services to Preserve Your Legacy!
+                                How We Bring Success To Your Project
                             </h2>
                             <p className="paragraph">
-                                Your book is more than just a story—it embodies your unique voice, experiences, and creativity. At Panda Publishing Agency, we believe every author deserves careful, accurate, and detail-oriented publishing services tailored to their needs and goals.
-                            </p>
+                                At London Book Publishers, we ensure your project’s success by offering expert editing services tailored to your needs. Our team of editors pays meticulous attention to detail, guaranteeing a high-quality result that meets your expectations and delivers complete customer satisfaction.                            </p>
                             <p className="paragraph">
-                                Our team of qualified experts provides custom book publishing services designed to bring your artistic vision to life. From flawless editing and formatting to eye-catching cover design and effective marketing strategies, we offer comprehensive support every step of the way.
-                            </p>
+                                The process begins with a thorough analysis of your manuscript. We review it for errors and create a report that outlines the necessary changes. This helps us understand the scope of revisions and prepares us for the next stage.                            </p>
                             <p className="paragraph">
-                                With our guidance and support, rest assured that your book will receive the utmost care and exposure to a wide audience. Want to publish your own book? Let us help you spread your message and create a lasting legacy through your published work. Our services extend across various publishing domains, ensuring client satisfaction and success. You'll find our rates competitive, and our dedicated customer representatives are available round-the-clock for your convenience.
-                            </p>
+                                Once the analysis is complete, we work with you to decide on the best approach for editing, whether it’s line, developmental, or copy editing. After finalising the editing plan, we revise the manuscript in drafts, collaborating with you to ensure your vision is realised. The final step involves formatting and typesetting the book, after which we seek your approval before sending it to the publisher.                            </p>
                         </div>
 
                         {/* Right Column */}

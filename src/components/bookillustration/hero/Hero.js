@@ -17,10 +17,10 @@ export default function Hero() {
             {/* Left Column */}
             <div className="hero-left">
               <h1 className="hero-heading">
-                Discover the Most Budget-Friendly Book Illustration Services!
+                Creative Illustrators for Your Book – Getting Your Dreams Designed With Passion
               </h1>
               <p className="hero-paragraph">
-                If you're a self-published author seeking top-notch illustration to transform your book into a work of art, you've come to the perfect spot! At Panda Publishing, we offer exceptional and cost-effective book illustration services tailored to your requirements, ensuring your storytelling passion continues unhindered.
+                Welcome to London Book Publisher’s Illustration section, a place where we offer unmatched book illustration design and give life to your written content. Our professional artists have worked and are aware of every genre and have a way with those designs that promise results, all at a bearable cost.
               </p>
               <div className="btn-group">
                 <button className="btn btn-primary" onClick={openGetStartedPopup}>

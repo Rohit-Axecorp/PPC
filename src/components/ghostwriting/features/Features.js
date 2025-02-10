@@ -5,22 +5,23 @@ const features2 = [
     {
         id: 1,
         icon: "/images/100.png", // Replace this with your actual image path
-        title: "Personalized Support",
+        title: "Maintain Confidentiality",
         description:
-            "At Panda Publishing Agency, we understand every author is unique. That's why we offer personalized support tailored to your specific needs, ensuring that your vision and voice shine through every page of your book."    },
+            "Confidentiality of the content is very important while ghostwriting. It’s because they are fresh and unpublished and can be copied easily. But with London Book Publishers, you don’t need to worry for a moment. "
+    },
     {
-            id: 2,
-            icon: "/images/88.png", // Replace this with your actual image path
-            title: "Myriad of Distribution Channels",
-            description:
-                "We don’t limit your reach. We can make your book available on over 40 distribution platforms and on major online retailers like Amazon, Barnes and Noble, Apple Books, IngramSpark, and more, maximizing your potential audience.",
-        },
+        id: 2,
+        icon: "/images/88.png", // Replace this with your actual image path
+        title: "Free Revisions",
+        description:
+            "Did you notice a mistake or want to improve something? No worries since our team is committed to working on your book till the point you are satisfied. All our clients receive options to get free revisions without any changes in the previously decided cost. ",
+    },
     {
         id: 3,
         icon: "/images/77.png", // Replace this with your actual image path
-        title: "Book Marketing & Author Branding",
+        title: "Take Advantage of Our Discounts",
         description:
-            "We go beyond just publishing your book. We provide guidance on building your author brand and offer marketing support to help you connect with readers and promote your work effectively.",
+            "We are often offering discounts that add to the already cheap prices. So stay connected and take advantage of our services!",
     },
 ];
 
@@ -32,7 +33,7 @@ export default function Features() {
                     <h5 className="features-subtitle">Our Approach
                     </h5>
                     <h1 className="features-title">
-                        Crafting Your Masterpiece: Our Approach to Book Publishing Services
+                        Should You Trust Our Ghostwriting Company? Discover and Decide
                     </h1>
                     <div className="features-cards">
                         {features2.map((feature2) => (

@@ -5,51 +5,51 @@ const tabsData = [
     {
         id: 1,
         icon: "./images/1111.png",
-        title: "Consultation",
+        title: "Initial Consultation",
         description:
-            "Begin with an in-depth discussion to understand your vision and goals"
+            "We begin with a conversation to understand your vision and goals for the book."
     },
     {
         id: 2,
         icon: "./images/88.png",
-        title: "Evaluation",
+        title: "Manuscript Review",
         description:
-            "Our team assesses your manuscript for strengths and areas of improvement."
+            "Our experts review your manuscript to identify areas for improvement."
     },
     {
         id: 3,
         icon: "./images/22.png",
-        title: "Writer Selection",
+        title: "Editing & Refining",
         description:
-            "We match you with a skilled writer to bring your story to life."
+            "We refine the content for clarity, engagement, and age-appropriate language."
     },
     {
         id: 4,
         icon: "./images/33.png",
-        title: "Illustration & Design",
+        title: "Illustration Planning",
         description:
-            "Collaborate with our illustrators and designers to create captivating visuals."
+            "We collaborate to select the right illustrations that enhance your story."
     },
     {
         id: 5,
         icon: "./images/44.png",
-        title: "Editing & Proofreading",
+        title: "Design & Layout",
         description:
-            "Meticulously polish your manuscript for impeccable quality."
+            "Our team ensures a professional and appealing layout for both text and images."
     },
     {
         id: 6,
         icon: "./images/55.png",
-        title: "Printing & Distribution",
+        title: "Final Approval",
         description:
-            "Handle the logistics to ensure your book reaches young readers worldwide."
+            "You review the final version before we move forward with production."
     },
     {
         id: 7,
         icon: "./images/66.png",
-        title: "Marketing & Support",
+        title: "Publishing & Distribution",
         description:
-            "Develop tailored marketing strategies and provide ongoing support for your book's success."
+            "Once approved, we handle the publishing and ensure your book reaches the right audience."
     },
 ];
 
@@ -60,7 +60,7 @@ export default function ServicesTabs() {
             <div className="container">
                 <div className="services-main-tabs">
                     <h1 className="services-tabs-title">
-                    Children's Book Publishing Services Process
+                        Seamless Steps to Bring Your Children’s Book to Life
                     </h1>
                     <div className="services-tabs-container">
                         <div className="services-tabs-list">

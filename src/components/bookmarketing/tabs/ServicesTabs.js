@@ -5,37 +5,37 @@ const tabsData = [
     {
         id: 1,
         icon: "./images/55.png",
-        title: "Manuscript Review and Editing",
+        title: "Tailored Marketing Plans",
         description:
-            "Delve deep into your story, refining plots, characters, and language to capture its essence brilliantly.",
+            "We create personalised strategies that align with your book’s genre, ensuring it reaches the right audience.",
     },
     {
         id: 2,
         icon: "./images/33.png",
-        title: "Book Design",
+        title: "In-Depth Market Research",
         description:
-            "Craft visuals that narrate a story even before the first page. Design covers that capture your narrative's essence and attract potential readers.",
+            "We study current market trends and identify key opportunities to enhance your book’s visibility.",
     },
     {
         id: 3,
         icon: "./images/22.png",
-        title: "Printing and Binding",
+        title: "Social Media Engagement",
         description:
-            "Merge cutting-edge technology with artisan skills to create each book as a masterpiece. Crisp pages, vibrant colors, and quality binding ensure a delightful reading experience.",
+            "Our team creates engaging content to boost your social media presence and connect with readers.",
     },
     {
         id: 4,
         icon: "./images/88.png",
-        title: "Marketing and Promotion",
+        title: "Collaborative Process",
         description:
-            "Ensure your book reaches eager readers. Ignite curiosity and excitement, propelling your book to the forefront of literary conversations",
+            "We work closely with authors to ensure they’re involved and informed at every stage of the marketing journey.",
     },
     {
         id: 5,
         icon: "./images/66.png",
-        title: "Book Distribution",
+        title: "Ongoing Optimisation",
         description:
-            "Leverage Amazon's global reach to bring your story to readers worldwide. Whether in print or digital format, make your story accessible on Amazon's platforms, connecting with readers globally.",
+            "We track and refine campaigns continuously, ensuring optimal results and consistent promotion.",
     },
 ];
 
@@ -47,7 +47,7 @@ export default function ServicesTabs() {
                 <div className="services-main-tabs">
                     <h5 className="services-tabs-subtitle">Our Process</h5>
                     <h1 className="services-tabs-title">
-                        Here's How We Do Things at Panda Publishing
+                        Our Approach to Effective Book Marketing
                     </h1>
                     <div className="services-tabs-container">
                         <div className="services-tabs-list">

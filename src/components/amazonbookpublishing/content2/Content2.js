@@ -12,33 +12,28 @@ export default function Content2() {
                         <div className="content2_right">
 
                             <h2 className="heading">
-                                Panda Publishing Is Not Your Run-of-the-Mill Publishers
+                                Leave the Details to Us: Seamless Amazon Publishing Services
                             </h2>
                             <p className="paragraph">
-                                Forget the dusty image of traditional publishing houses. Here at Panda Publishing, we’re a forward-thinking firm that embraces the dynamism of the modern publishing landscape. We believe in the power of stories, but we also believe in breaking the mold to bring them to life.
+                                At London Book Publishers, we believe that as an author, your focus should be on crafting your story. Leave the rest to us. We streamline the publishing process, providing you with a hassle-free experience from start to finish.
                             </p>
                             <p className="paragraph">
-                                <b>We Champion Innovation
+                                <b>Simple Service Selection & Transparent Quotes
                                 </b>
                                 <br />
-                                We don’t shy away from unconventional ideas. We thrive on exploring new avenues to showcase your work, whether it’s embracing emerging technologies or utilizing creative marketing strategies.
+                                Getting started is as easy as telling us what services you need. Choose from our range of publishing options and request a personalised quote. Our team is ready to guide you through the process, ensuring there are no surprises.
                             </p>
                             <p className="paragraph">
-                                <b>We Speak Your Language
+                                <b>Swift Project Initiation
                                 </b>
                                 <br />
-                                We understand that authors today are tech-savvy and involved. And if you are not, no worries. We value transparency and open communication, keeping you informed and engaged throughout the publishing journey.
+                                Once your payment is processed, we get to work immediately. Whether it’s editing, formatting, or publishing your book on Amazon, our dedicated team moves quickly to ensure that your book progresses without delay.
                             </p>
                             <p className="paragraph">
-                                <b>We Break Down Barriers
-
+                                <b>Comprehensive Support Every Step of the Way
                                 </b>
                                 <br />
-                                Traditional publishing can feel rigid and impersonal. We prioritize fostering a collaborative partnership where your voice is heard, and your vision is respected. We’re here to empower you, not dictate your story.
-
-                                <br />
-
-                                We want you to think of us as your publishing partner, not the gatekeepers. We believe in bending the traditional rules to help your book stand out in a crowded marketplace.
+                                From the first consultation to your book’s launch and beyond, we provide ongoing support. Whether you’re looking for help with marketing, distribution, or creating a professional website, we’re here to assist at every stage.
                             </p>
                         </div>
 

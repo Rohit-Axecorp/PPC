@@ -9,14 +9,12 @@ export default function Contentline() {
                 <div className="container">
                     <div className="main-content">
                         <h2 className="heading">
-                            We Make Self Publishing Your Book Easy.
+                            Why Go For Self-Publishing?
                         </h2>
                         <p className="paragraph">
-                            We know how difficult it is to handle the various stages of self-publishing a book, especially if you are an aspiring author looking to get your first book published. Panda Publishing started as a small group of friends who enjoyed reading classical and contemporary literature sharing notes, thoughts, and interpretation. That love blossomed into starting a then-small self-publishing firm called Panda Publishing. Now, we are a team of over 100 industry-vetted and like-minded professionals offering digital services to help aspiring writers and authors looking to make a mark in the literary world and cement their legacy.
-                        </p>
+                            Self-publishing offers authors greater control and flexibility. It avoids delays with agents and publishers, and is ideal for targeting niche markets or releasing books quickly to capitalise on timely opportunities. Print-on-demand options suit new authors, while making it easy to republish for accuracy or new editions.                        </p>
                         <p className="paragraph">
-                            We’re here to simplify your journey. Whether you have a polished manuscript ready for publication or are at an earlier stage and require assistance with editing, proofreading, formatting, or even crafting your story from scratch with our ghostwriting services, our team of experienced professionals is here to guide you. We can also help you design a stunning cover that will grab readers’ attention and navigate the intricacies of Amazon Book Publishing to ensure your book reaches its target audience. Let Panda Publishing be your self-publish book partner in transforming your manuscript, or even your initial ideas, into a published masterpiece.
-                        </p>
+                            Unlike traditional publishing, self-publishing allows you to retain all rights, control every aspect of your book, and keep a higher royalty. With the help of an experienced partner, you can also print in small quantities to reduce costs and tailor everything to best suit your audience.                        </p>
                     </div>
                 </div>
             </div>

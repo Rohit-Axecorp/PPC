@@ -5,22 +5,23 @@ const features2 = [
     {
         id: 1,
         icon: "/images/100.png", // Replace this with your actual image path
-        title: "Personalized Support",
+        title: "Expert Analysis & Strategy Development",
         description:
-            "At Panda Publishing Agency, we understand every author is unique. That's why we offer personalized support tailored to your specific needs, ensuring that your vision and voice shine through every page of your book."    },
+            "The first step in our marketing process is a thorough review of your book by our expert marketing team. They analyse your book’s unique qualities and identify the best strategy that aligns with your goals. Our approach is tailored to maximise your returns while keeping the marketing budget in mind."
+    },
     {
-            id: 2,
-            icon: "/images/88.png", // Replace this with your actual image path
-            title: "Myriad of Distribution Channels",
-            description:
-                "We don’t limit your reach. We can make your book available on over 40 distribution platforms and on major online retailers like Amazon, Barnes and Noble, Apple Books, IngramSpark, and more, maximizing your potential audience.",
-        },
+        id: 2,
+        icon: "/images/88.png", // Replace this with your actual image path
+        title: "Personalised Marketing Campaigns",
+        description:
+            "Whether it’s PPC, SEO, or Social Media Marketing, we craft a personalised campaign suited to your book’s needs. Our team of subject matter specialists and experienced marketers ensures that your book gets the recognition it deserves, with transparent communication throughout the process.",
+    },
     {
         id: 3,
         icon: "/images/77.png", // Replace this with your actual image path
-        title: "Book Marketing & Author Branding",
+        title: "Optimising for Success",
         description:
-            "We go beyond just publishing your book. We provide guidance on building your author brand and offer marketing support to help you connect with readers and promote your work effectively.",
+            "At times, adjustments may be needed within your book or its cover to maximise marketability. Our team works closely with you to make the necessary changes, ensuring that your book stands out and reaches the readers most likely to appreciate it.",
     },
 ];
 
@@ -32,7 +33,7 @@ export default function Features() {
                     <h5 className="features-subtitle">Our Approach
                     </h5>
                     <h1 className="features-title">
-                        Crafting Your Masterpiece: Our Approach to Book Publishing Services
+                        Our Comprehensive Book Marketing Strategy
                     </h1>
                     <div className="features-cards">
                         {features2.map((feature2) => (

@@ -9,12 +9,12 @@ export default function Contentline() {
                 <div className="container">
                     <div className="main-content">
                         <h2 className="heading">
-                            Our Commitment to Excellence
+                            Crafting Exceptional Children’s Books
                         </h2>
                         <p className="paragraph">
-                            Publishing children’s books is our expertise. Our ethos is centered on an uncompromising dedication to excellence. Every child should have access to excellent, meaningful literature that ignites their imagination, encourages creativity, and instills a lifetime love of reading, in our opinion. We work hard to provide unmatched publishing services that help your content reach its greatest potential by adhering to this concept.
+                            At London Book Publishers, we take pride in delivering excellence at every stage of your children’s book journey. From the first draft to the final print, our expert team ensures your book stands out with quality that exceeds expectations.
                         </p>
-                      
+
                     </div>
                 </div>
             </div>

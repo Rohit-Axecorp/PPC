@@ -12,16 +12,16 @@ export default function Content2() {
                         <div className="content2_right">
 
                             <h2 className="heading">
-                                Use Expert Self-Book Publishing Services to Preserve Your Legacy!
+                                Bring Your Story to Life with Breathtaking Illustrations
                             </h2>
                             <p className="paragraph">
-                                Your book is more than just a story—it embodies your unique voice, experiences, and creativity. At Panda Publishing Agency, we believe every author deserves careful, accurate, and detail-oriented publishing services tailored to their needs and goals.
+                                Illustrations are the heart of visually engaging books, enhancing the reading experience by bringing the story to life. At London Book Publishers, we ensure that every illustration is crafted with precision, creativity, and attention to detail, making each page an immersive journey for the reader.
                             </p>
                             <p className="paragraph">
-                                Our team of qualified experts provides custom book publishing services designed to bring your artistic vision to life. From flawless editing and formatting to eye-catching cover design and effective marketing strategies, we offer comprehensive support every step of the way.
+                                Our team of expert illustrators understands the power of visual storytelling. With years of experience, they create artwork that perfectly complements the narrative, capturing emotions, settings, and characters with unmatched finesse. Every stroke and colour choice is carefully planned to align with the essence of your book.
                             </p>
                             <p className="paragraph">
-                                With our guidance and support, rest assured that your book will receive the utmost care and exposure to a wide audience. Want to publish your own book? Let us help you spread your message and create a lasting legacy through your published work. Our services extend across various publishing domains, ensuring client satisfaction and success. You'll find our rates competitive, and our dedicated customer representatives are available round-the-clock for your convenience.
+                                A book’s success isn’t just about great writing—it’s also about presentation. High-quality illustrations add depth and appeal, making your book unforgettable. Partner with us to transform your vision into stunning visuals that captivate your audience and elevate your book to new heights.
                             </p>
                         </div>
 

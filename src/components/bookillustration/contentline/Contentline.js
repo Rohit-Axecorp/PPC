@@ -9,10 +9,10 @@ export default function Contentline() {
                 <div className="container">
                     <div className="main-content">
                         <h2 className="heading">
-                            The Importance of Hiring Book Illustrators for Crafting Visual Impact
+                            What Kinds of Illustrations Can We Design?
                         </h2>
                         <p className="paragraph">
-                            Our range of services encompasses illustration, ghostwriting, editing, and publishing support. Whether you seek assistance in sculpting an engaging narrative or refining your manuscript, our seasoned team is at your service. We take pride in delivering exceptional service and generating top-tier illustrated books. Don't let your concepts languish on a shelf. Reach out to us today to breathe life into your book.
+                            Our portfolio of illustrations is filled with a large variety and almost every significant type is there in it. We can produce everything ranging from concept art, watercolour illustrations, children’s books, Vector illustrations, Cartoon and Comic illustrations, Abstract, Pencil and Ink Illustrations, and so much more.
                         </p>
                     </div>
                 </div>

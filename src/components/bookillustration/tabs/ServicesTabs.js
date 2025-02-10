@@ -5,37 +5,37 @@ const tabsData = [
     {
         id: 1,
         icon: "./images/55.png",
-        title: "Manuscript Review and Editing",
+        title: "Custom-Tailored Illustrations",
         description:
-            "Delve deep into your story, refining plots, characters, and language to capture its essence brilliantly.",
+            "We create illustrations that perfectly align with your book’s theme and audience.",
     },
     {
         id: 2,
         icon: "./images/33.png",
-        title: "Book Design",
+        title: "Detailed Research and Concept Development",
         description:
-            "Craft visuals that narrate a story even before the first page. Design covers that capture your narrative's essence and attract potential readers.",
+            "Our team ensures accuracy and authenticity in every visual element.",
     },
     {
         id: 3,
         icon: "./images/22.png",
-        title: "Printing and Binding",
+        title: "Collaborative Design Process",
         description:
-            "Merge cutting-edge technology with artisan skills to create each book as a masterpiece. Crisp pages, vibrant colors, and quality binding ensure a delightful reading experience.",
+            "We involve you at every stage to bring your vision to life.",
     },
     {
         id: 4,
         icon: "./images/88.png",
-        title: "Marketing and Promotion",
+        title: "Commitment to Quality and Detail",
         description:
-            "Ensure your book reaches eager readers. Ignite curiosity and excitement, propelling your book to the forefront of literary conversations",
+            "Every illustration is crafted with precision and artistic excellence.",
     },
     {
         id: 5,
         icon: "./images/66.png",
-        title: "Book Distribution",
+        title: "Final Touches and Refinement ",
         description:
-            "Leverage Amazon's global reach to bring your story to readers worldwide. Whether in print or digital format, make your story accessible on Amazon's platforms, connecting with readers globally.",
+            "We polish and perfect each piece for a flawless final result.",
     },
 ];
 
@@ -47,7 +47,7 @@ export default function ServicesTabs() {
                 <div className="services-main-tabs">
                     <h5 className="services-tabs-subtitle">Our Process</h5>
                     <h1 className="services-tabs-title">
-                        Here's How We Do Things at Panda Publishing
+                        Our Approach to Exceptional Book Illustration
                     </h1>
                     <div className="services-tabs-container">
                         <div className="services-tabs-list">

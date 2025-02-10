@@ -12,16 +12,16 @@ export default function Content2() {
                         <div className="content2_right">
 
                             <h2 className="heading">
-                                Use Expert Self-Book Publishing Services to Preserve Your Legacy!
+                                Complete Book Marketing Solutions
                             </h2>
                             <p className="paragraph">
-                                Your book is more than just a story—it embodies your unique voice, experiences, and creativity. At Panda Publishing Agency, we believe every author deserves careful, accurate, and detail-oriented publishing services tailored to their needs and goals.
+                                At London Book Publishers, we know that simply writing a great book isn’t enough. The real challenge lies in ensuring your book reaches the right readers and generates the attention it deserves. Our marketing strategies are designed to elevate your book’s visibility and maximise its potential in a competitive market.
                             </p>
                             <p className="paragraph">
-                                Our team of qualified experts provides custom book publishing services designed to bring your artistic vision to life. From flawless editing and formatting to eye-catching cover design and effective marketing strategies, we offer comprehensive support every step of the way.
+                                We create a bespoke marketing plan tailored to your book’s unique qualities. Our experienced team works closely with you, ensuring that every strategy is fine-tuned to enhance your book’s popularity and connect with your target audience.
                             </p>
                             <p className="paragraph">
-                                With our guidance and support, rest assured that your book will receive the utmost care and exposure to a wide audience. Want to publish your own book? Let us help you spread your message and create a lasting legacy through your published work. Our services extend across various publishing domains, ensuring client satisfaction and success. You'll find our rates competitive, and our dedicated customer representatives are available round-the-clock for your convenience.
+                                In the digital age, author branding and a strong social media presence are essential for success. We help build your personal brand and manage your online presence, ensuring consistent engagement with your readers. Through influencer outreach and securing reviews, we ensure your book gains the momentum it needs to thrive.
                             </p>
                         </div>
 
