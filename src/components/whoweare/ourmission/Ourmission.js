@@ -11,17 +11,16 @@ export default function Ourmission() {
                         <div className="mission-content">
                             <div className="left-image"></div>
                             <div className="right-text">
-                                <h2>Our Mission</h2>
+                                <h2>Our Results Are Evidence of our Value</h2>
                                 <p>
-                                    At Panda Publishing, our mission is to deliver top-notch services
-                                    and unparalleled customer support to individuals and businesses
-                                    worldwide who aspire to share their literary creations with the
-                                    world through writing, publishing, and marketing books.
+                                    Customer Satisfaction is Our Utmost Priority
+                                    Our clients are the reason we exist and we help them reach their goals and get their dreams fulfilled by working with relentless dedication.
+
                                 </p>
                                 <p>
-                                    We are committed to fostering long-term partnerships with our
-                                    clients, built on trust and excellence, by providing them with a
-                                    dedicated team and unwavering commitment to quality.
+                                    Our Approach From Start To Publishing Are Result-Oriented
+                                    Our strategy is never to hope for the best but to make sure the results are the best. Our every step is with the purpose, and it’s no surprise that it happens at the end.
+
                                 </p>
                                 <button className="cta-button">Get Started Now</button>
                             </div>

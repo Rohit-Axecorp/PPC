@@ -14,19 +14,22 @@ export default function Whowearecontent() {
                     {/* Right Column */}
                     <div className="wwr-content1_right">
                         <h2 className="wwr-heading">
-                            Panda Publishing: Where Dreams Meet Reality
+                            Turning Stories Into Success
                         </h2>
                         <p className="wwr-paragraph">
-                            At Panda Publishing, our team is a collective of dreamers who happen to be skilled writers, editors, and storytellers. We are deeply invested in nurturing our clients' creative visions. As professional dreamers, we empathize with the journey of our clients and strive to transform their dreams into tangible realities, whether through books, captivating book covers, engaging audiobooks, and beyond.
+                            London Book Publishers has been helping authors bring their stories to life for over a decade. With a track record of successful publications, we ensure every book is crafted with quality, creativity, and precision.
                         </p>
                         <p className="wwr-paragraph">
-                            Central to our ethos is a commitment to trust and quality. We carefully select our clients and projects, ensuring that every collaboration is built on a foundation of mutual respect and satisfaction. Under the Panda Publishing umbrella, excellence is non-negotiable. Across literature, design, and narration, we infuse each project with passion and respect, honoring the creative autonomy of our clients while delivering vibrant, polished results.
+                            Our team works with the goal of making each book a standout success while giving authors full creative control and 100% royalties. No matter the genre or format, we turn ideas into books that captivate readers.
                         </p>
                         <h2 className="wwr-heading2">
-                            What Sets Us Apart?
+                            Our Mission & Values
                         </h2>
                         <p className="wwr-paragraph">
-                            Panda Publishing isn't just another service provider; we're your dedicated allies in bringing your vision to life. With us, expect nothing short of exceptional service and unwavering customer support. We tailor our offerings to suit your unique needs, offering personalized packages across a diverse range of services. We believe in giving every manuscript the opportunity to shine, just as we hope you'll give us the chance to exceed your expectations.
+                            Our mission is to empower authors with expert publishing services while maintaining excellence, integrity, and creativity.
+                        </p>
+                        <p className="wwr-paragraph">
+                            We value strong author partnerships, helping bring stories to life with innovation and industry expertise to create books that inspire and engage readers worldwide.
                         </p>
                     </div>
                 </div>

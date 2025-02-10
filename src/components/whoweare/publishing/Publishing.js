@@ -3,11 +3,12 @@ import "./publishing.css";
 
 export default function Publishing() {
   return (
-    <div className="panda-container" style={{marginTop:"100px"}}>
+    <div className="panda-container" style={{ marginTop: "100px" }}>
       {/* Content Publishers Section */}
       <div className="content-publishers">
         {/* <h5 className="publishers-subtitle">Our Promise to You</h5> */}
-        <h1 className="publishers-title">Why Choose Panda Publishing
+        <h5 className="publishers-subtitle">Our Promise to You</h5>
+        <h1 className="publishers-title">We Provide Solutions to Every Publishing Problem
         </h1>
       </div>
 
@@ -21,44 +22,44 @@ export default function Publishing() {
           {[
             {
               id: "01",
-              title: "Experienced Ghostwriters",
+              title: "Professional Editing",
               description:
-                "Our team of experienced editors will meticulously review your manuscript, ensuring clarity, proper grammar, and a captivating flow. They’ll also provide insightful suggestions to strengthen your story’s structure and enhance its overall impact. Following editing, meticulous proofreaders will double-check for any remaining typos or inconsistencies, ensuring your book is error-free and ready to impress.",
+                "Our expert editing services refine every aspect of your manuscript, ensuring that your book meets the highest standards. Whether it’s structural editing, copyediting, or proofreading, we help bring clarity, flow, and coherence to your work.",
               bg: "gray-bg",
             },
             {
               id: "02",
-              title: "Privacy",
+              title: "Custom Illustrations and Design",
               description:
-                "First impressions matter, and a captivating cover design is crucial for attracting readers. Our team of talented designers will collaborate with you to create a visually appealing cover that perfectly reflects your book’s genre and content. We’ll ensure your cover design is appropriate, eye-catching, and stands out on crowded online shelves.",
+                "We bring your story to life with unique, high-quality illustrations, paired with expert design services. Our team ensures that the layout, typography, and imagery perfectly align with the tone and vision of your book.",
               bg: "white-bg",
             },
             {
               id: "03",
-              title: "Affordability",
+              title: "Book Formatting",
               description:
-                "An ISBN (International Standard Book Number) is a unique identifier for your book in the global marketplace. We’ll guide you through the acquisition process to ensure your book has a recognized identity and can be easily found by potential readers and retailers.",
+                "Our experienced formatters ensure your book is professionally laid out and meets industry standards. This makes your book not only visually appealing but also enhances readability, providing a smooth experience for the reader.",
               bg: "white-bg",
             },
             {
               id: "04",
-              title: "Customer Satisfaction",
+              title: "Publishing Assistance",
               description:
-                "We go beyond simply publishing your book. Our team can provide valuable guidance on crafting a comprehensive marketing strategy. This might include social media promotion, creating a captivating author website, or exploring book review opportunities. Our goal is to help you connect with your target audience and effectively promote your work.",
+                "We handle every step of the publishing process, from print-on-demand to distribution across major platforms. Our services ensure your book reaches readers wherever they are, in the format they prefer.",
               bg: "gray-bg",
             },
             {
               id: "05",
-              title: "Dynamic Stories",
+              title: "Marketing and Promotion",
               description:
-                "Your book is your creation. When you publish with Panda Publishing, you retain all ownership rights to your work. As we said before, we handle the publishing and distribution logistics, the copyright remains yours. This ensures you receive the full financial benefits from your book sales and have complete control over your intellectual property.",
+                "Our marketing team crafts strategies to give your book the attention it deserves. From social media campaigns to author websites, we ensure your book is visible and reaches its target audience effectively.",
               bg: "gray-bg",
             },
             {
               id: "06",
-              title: "24/7 Customer Support",
+              title: "Ongoing Support",
               description:
-                "We’re here for you every step of the way. Our dedicated customer support team is readily available to answer your questions, address any concerns, and provide ongoing assistance throughout your self-publishing journey. You’ll never feel alone in the process – we’re just a phone call away!",
+                "We believe in building long-term relationships with our authors. Our team provides continuous support throughout the publishing journey, offering guidance, updates, and advice as you navigate the world of publishing and promotion.",
               bg: "white-bg",
             },
           ].map((feature, index) => (
