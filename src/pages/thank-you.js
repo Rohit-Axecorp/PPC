@@ -10,14 +10,12 @@ export default function Thankyou() {
     return (
         <>
 
-
             <Header />
             <Breadcrumb pageTitle="Thank You" />
             <Thanku />
             <Cta />
             <Faqs />
             <Footer />
-
 
         </>
     )

@@ -13,10 +13,7 @@ export default function Footer() {
                             <img src="./images/lbp_logo.webp" alt="Logo" />
                         </div>
                         <p className="footer-text1">
-                            Panda Publishing is an independent publishing house that provides a suite
-                            of digital services, including book publishing, children’s books, book
-                            marketing, ghostwriting, illustration, book cover design, author website,
-                            and more.
+                            We are the best publishing and book marketing company in the UK. We believe in the dreams of the authors and have made it our mission to keep bringing them forward.
                         </p>
                     </div>
 
@@ -54,7 +51,7 @@ export default function Footer() {
                         <p className="footer-text"><a href="tel:+44 020 4615 6000"><strong>Phone Number:</strong> +44 020 4615 6000</a></p>
                         <p className="footer-text">
                             <strong>Email Address:</strong>{" "}
-                            <a href="mailto:info@londonbookpublishers.com">info@pandapublishing.agency</a>
+                            <a href="mailto:info@londonbookpublishers.com">info@londonbookpublishers.com</a>
                         </p>
                     </div>
                 </div>

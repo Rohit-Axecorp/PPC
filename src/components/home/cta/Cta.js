@@ -14,10 +14,15 @@ export default function Cta() {
                             <h1 className="cta-heading">Have Questions? Need Guidance? Let’s Talk
                             </h1>
                             <p className="cta-paragraph">
-                                Ready to embark on your self-publishing journey but have lingering questions? Perhaps you need some expert guidance to navigate the exciting world of book creation? Don’t hesitate to reach out! The Panda Publishing team is here to answer your questions and provide tailored advice to address your specific needs.
+                                Got questions or need some guidance? We’re here to help! Our team of experts is ready to
+                                assist you at every stage of your publishing journey. Whether you’re just starting or seeking
+                                specific advice, we offer clear and friendly support to ensure you’re confident throughout the
+                                process.
                             </p>
                             <p className="cta-paragraph">
-                                We offer a free consultation where you can discuss your book concept, explore our services in detail, and get a clear understanding of how Panda Publishing can help you achieve your book publishing goals. Contact us today, and let’s chat about turning your manuscript into a published masterpiece!
+                                Feel free to get in touch. We’re passionate about bringing your book to life and would be
+                                delighted to discuss your ideas, goals, and how we can help make your publishing experience
+                                smooth and successful. Let’s connect today!
                             </p>
                         </div>
 

@@ -13,9 +13,9 @@ export default function Banner2() {
             <div className="banner">
                 <div className="container">
                     <div className="main-banner">
-                        <h5 className="subheading">Self Publish Your Book!
+                        <h5 className="subheading">Self-Publish Your Book
                         </h5>
-                        <h1 className="heading">Let Panda Publishing Handle the Complex Book Publishing Processes
+                        <h1 className="heading">Let London Book Publishers Take Care of the Complications of Publishing
                         </h1>
                         <div className="button-group">
                             <button className="btn btn-primary" onClick={openGetStartedPopup}>Get A Quote</button>

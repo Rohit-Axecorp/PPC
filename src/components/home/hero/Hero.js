@@ -16,9 +16,14 @@ export default function Hero() {
           <div className="hero-content">
             {/* Left Column */}
             <div className="hero-left">
-              <h1 className="hero-heading">Publish Your Book with Panda Publishing</h1>
+              <h1 className="hero-heading">Welcome to London Book Publishers
+              </h1>
               <p className="hero-paragraph">
-                Panda Publishing is an independent self-publishing house that offers a supportive and comprehensive range of digital services to guide you through every step of the self-publishing journey. Let’s turn your dream of becoming a published author into reality. Contact us today.
+                Are you an author looking to get your work published? Is it your dream to see your book
+                shining on the high street or online bookshops? Cheers! You have made it to the right place.
+                We, at London Book Publishers, break down publishing into easy, understandable steps for
+                our authors and stand by them every step of the way. With our team of expert publishers and
+                friendly customer service, we ensure your work reaches where you expect it to be…
               </p>
               <div className="btn-group">
                 <button className="btn btn-primary" onClick={openGetStartedPopup}>

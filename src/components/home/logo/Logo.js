@@ -13,7 +13,7 @@ export default function Logo() {
                     {/* 30% Column */}
                     <div className="left-column">
                         <h1 className="brand-title">
-                            Publish Your Book On Your Dedicated Platform.
+                            Publish Your Book on Your Preferred Platform
                         </h1>
                     </div>
 

@@ -6,41 +6,32 @@ import "./faqs.css"
 export default function Faqs() {
     const faqs = [
         {
-            question: "What services are included in your packages, and can I customize them to fit my needs?",
+            question: "What genres of books do London Book Publishers typically accept?",
             answer:
-                "Our packages offer a variety of services, including editing, proofreading, cover design, formatting, ISBN acquisition, and distribution assistance. We also offer ghostwriting services. Absolutely! We understand that every author’s needs are unique. We offer consultations to discuss your project and create a customized package that aligns perfectly with your goals.",
+                "London Book Publishers accepts various genres, including fiction (literary, romance, mystery, science fiction, etc.), non-fiction (memoirs, biographies, self-help, history, etc.), young adult, children’s books, and more.",
         },
         {
-            question: "How do you handle editing and proofreading? What are the qualifications of your editors?",
+            question: "How do I submit my manuscript to London Book Publishers?",
             answer:
-                "Our editors are experienced professionals who are well-versed in grammar, style, and industry standards. We provide thorough editing and proofreading to ensure the highest quality.",
-        },
-        {
-            question:
-                "What distribution channels do you offer for my book (e.g., Amazon, Kobo, IngramSpark)?",
-            answer:
-                "We distribute your book through a variety of popular platforms including Amazon, Kobo, and IngramSpark to maximize your book's reach.",
-        },
-        {
-            question: "Do you offer any marketing and publicity support? If so, what does that entail?",
-            answer:
-                "Yes, we offer marketing and publicity support including social media promotion, press releases, and targeted advertising campaigns to help your book reach a wider audience.",
+                "You can send us your manuscript, preferably via email, as it is readily accessible, and the team can start working on your project. If you don’t have a strict timeline, you can send us via fax, mail, or scanned images.",
         },
         {
             question:
-                "What are your royalty rates and payment structures? Are there any upfront costs or hidden fees?",
+                "Will the London Book Publishers handle the marketing and promotion of my book?",
             answer:
-                "We are transparent about our fees. Our royalty rates and payment structures depend on the services you select. No hidden fees.",
+                "Yes, if you have signed up for a Marketing Plan for your book, London Book Publishers has adedicated marketing and publicity department that will help promote your book. They may assist with creating a marketing plan, arranging author events, securing media coverage, and leveraging digital platforms. However, it’s also important for authors to actively participate in promoting their own books and building their author brand.",
         },
         {
-            question: "Can I see samples of your work (book covers, formatting examples)?",
+            question: "Can I choose my own cover design for my book?",
             answer:
-                "Absolutely, we can provide samples of our previous work including book covers and formatted pages.",
+                "London Book Publishers values author input, and the final decision regarding cover design is often a collaborative effort between the publisher, the author, and the design team. Designers have experience in creating covers that appeal to their target audience and fit within market trends. However, authors can share their ideas and preferences, and the designer will strive to create a cover that represents the essence of the book while meeting market standards. But yes, an author can choose their cover designs for their books. "
         },
         {
-            question: "Can you provide references from past clients?",
-            answer: "Yes, we have testimonials and references available from satisfied clients.",
+            question:
+                "How do royalties work with London Book Publishers?",
+            answer: "Royalties are a percentage of the book’s sales that authors receive as compensation. All royalties go directly to the author; London Book Publishers would never ask its authors for a percentage of their royalties.",
         },
+
     ];
     const [activeIndex, setActiveIndex] = useState(null);
 
@@ -50,31 +41,31 @@ export default function Faqs() {
     return (
         <>
             <div className="faqs">
-            <div className="faq-container">
-                <h3 className="faq-subtitle">Frequently Asked Questions</h3>
-                <h2 className="faq-title">FAQs</h2>
-                <div className="faq-items">
-                    {faqs.map((faq, index) => (
-                        <div
-                            className={`faq-item ${activeIndex === index ? "active" : ""}`}
-                            key={index}
-                        >
-                            <div className="faq-question" onClick={() => toggleFAQ(index)}>
-                                {faq.question}
-                                <span className="faq-toggle">
-                                    <FontAwesomeIcon
-                                        icon={activeIndex === index ? faChevronUp : faChevronDown}
-                                    />
-                                </span>
+                <div className="faq-container">
+                    <h3 className="faq-subtitle">Frequently Asked Questions</h3>
+                    <h2 className="faq-title">FAQs</h2>
+                    <div className="faq-items">
+                        {faqs.map((faq, index) => (
+                            <div
+                                className={`faq-item ${activeIndex === index ? "active" : ""}`}
+                                key={index}
+                            >
+                                <div className="faq-question" onClick={() => toggleFAQ(index)}>
+                                    {faq.question}
+                                    <span className="faq-toggle">
+                                        <FontAwesomeIcon
+                                            icon={activeIndex === index ? faChevronUp : faChevronDown}
+                                        />
+                                    </span>
+                                </div>
+                                {activeIndex === index && (
+                                    <div className="faq-answer">{faq.answer}</div>
+                                )}
                             </div>
-                            {activeIndex === index && (
-                                <div className="faq-answer">{faq.answer}</div>
-                            )}
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
-            </div>
-        </div >
+            </div >
         </>
     )
 }

@@ -7,47 +7,37 @@ import "./testimonials.css";
 
 const testimonialsData = [
     {
-        initials: "DL",
-        name: "Darren Leigh - AEGIS Management",
-        heading: "I'm happy to say that Panda Publishing Agency has played a major role...",
+        initials: "JH",
+        name: "James Harrington",
+        heading: "I would give them a good 4.5 since my project manager was very attentive.",
         subtitle:
-            "In helping me build over 10+ logos for my clients in just 1 Day. I highly recommend the service to anyone who is looking to get great design options at a great price point.",
+            "Tbh, I never published a book before, and I was satisfied with the fact that the guys know what they are upto and it really helped. The end product was professional and close to what I expected so yeah, I am chuffed! ",
     },
     {
-        initials: "MC",
-        name: "Megan Cerda",
-        heading: "Harry Wright and Roger Hood were easy to work with...",
+        initials: "EC",
+        name: "Elizabeth Carter",
+        heading: "All I had when I came to Johnny was this crazy idea and his team gave it a form I still find unbelievable.",
         subtitle:
-            "They made the process go smoothly and ensured to communicate each step clearly.",
+            "As the book started taking the form, I kept giving my ideas and they made sure they were incorporated with the right detail and flow. My experience was therefore a great one. ",
     },
     {
-        initials: "MG",
-        name: "Michael Gordon",
-        heading: "Excellent support and ideas. The process went smoothly...",
+        initials: "WD",
+        name: "William Davis",
+        heading: "I have been working on my book for a very long time but it needed a lot of help.",
         subtitle:
-            "I received lots of support. My project manager was terrific and very responsive to all my changes and questions.",
+            "I am not a techie and my book needed a lot of setting to actually appear good. The formatted and editors were all very patient and understood my not so comprehensive suggestion really good. I would especially mention Thomas, my project manager who made this process a lot easier than it was.",
     },
-    {
-        initials: "MG",
-        name: "Michael Gordon",
-        heading: "Excellent support and ideas. The process went smoothly...",
-        subtitle:
-            "I received lots of support. My project manager was terrific and very responsive to all my changes and questions.",
-    },
-    {
-        initials: "MG",
-        name: "Michael Gordon",
-        heading: "Excellent support and ideas. The process went smoothly...",
-        subtitle:
-            "I received lots of support. My project manager was terrific and very responsive to all my changes and questions.",
-    },
+
 ];
 
 export default function Testimonials() {
     return (
         <div className="testimonials">
-            <h3 className="testimonials-subtitle">Read testimonials from our happy customers</h3>
-            <h2 className="testimonials-title">Testimonials</h2>
+            <h3 className="testimonials-subtitle">The reviews reflect the experience of the authors with the brand, showcasing their experience
+                and services they admired.
+            </h3>
+            <h2 className="testimonials-title">Reviews by Authors for London Book Publishers
+            </h2>
 
             <Swiper
                 modules={[Autoplay]}

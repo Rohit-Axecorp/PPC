@@ -5,51 +5,51 @@ const tabsData = [
     {
         id: 1,
         icon: "./images/11.png", // Replace with your image link
-        title: "We Connect with Each Other",
+        title: "Action and Adventure",
         description:
-            "First things first! We begin by scheduling a consultation to get to know you and your book.",
+            "Add the right amount of action and adventure to your stories to make them engaging and keep the readers on the edge.",
     },
     {
         id: 2,
         icon: "./images/22.png", // Replace with your image link
-        title: "We Discuss Your Needs",
+        title: "Science Fiction",
         description:
-            "We discuss your specific needs and provide guidance tailored to your project, ensuring every step aligns with your vision.",
+            "Talk about the technologies that could exist in the future and get your readers hooked on the never-ending possibilities and threats.",
     },
     {
         id: 3,
         icon: "./images/33.png", // Replace with your image link
-        title: "We Handover Your Manuscript to Our Editing Team",
+        title: "Comics",
         description:
-            "Your manuscript is handed over to our expert editing team, who refine and polish your work to perfection.",
+            "Form the right balance between the graphics and dialogues to create comics that make readers live the scene.",
     },
     {
         id: 4,
         icon: "./images/44.png", // Replace with your image link
-        title: "We Get the Formatting Done",
+        title: "Dictionary",
         description:
-            "We format your manuscript professionally, ensuring it meets industry standards and looks great in print or digital formats.",
+            "Take the next steps towards a wider audience and find the words that push your story before the world. Write content that leaves an impact with the precision of words.",
     },
     {
         id: 5,
         icon: "./images/55.png", // Replace with your image link
-        title: "QA Keeps Everything in Check",
+        title: "Drama",
         description:
-            "Our quality assurance team ensures everything is flawless, leaving no room for errors.",
+            "With stories of human experiences, this is where emotions come into play, and characters grab the attention with traits and fight for love, survival and much more.",
     },
     {
         id: 6,
         icon: "./images/66.png", // Replace with your image link
-        title: "We Publish Your Book",
+        title: "Health",
         description:
-            "Your book is published on major platforms, making it accessible to your audience worldwide.",
+            "Inspire the readers through stories of resilience, healing and mindset. From stories of discipline to those of fighting through pain, the genre helps readers learn the strength of the body and the mind.",
     },
     {
         id: 7,
         icon: "./images/66.png", // Replace with your image link
-        title: "You Reap the Rewards!",
+        title: "Horror",
         description:
-            "Enjoy the success and recognition of your published book, reaping the rewards of your hard work.",
+            "Dig deep into the fears that have prevailed among humans forever and write bone-chilling stories for the audience that loves the does of terror and suspense.",
     },
 ];
 
