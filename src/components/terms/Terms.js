@@ -1,5 +1,5 @@
 import React from 'react';
-import './terms.css'; // Import the CSS file
+import './terms.css';
 
 export default function Terms() {
     return (
@@ -20,7 +20,7 @@ export default function Terms() {
                         <p className='privacy-paragraph'>You have the right to a complete refund before we begin working on your project...</p>
 
                         <h2 className='terms-heading'>Terms for Website Usage</h2>
-                        <p className='privacy-paragraph'>The content on www.pandapublishing.agency does not constitute any advice...</p>
+                        <p className='privacy-paragraph'>The content on info@londonbookpublishers.com does not constitute any advice...</p>
 
                         <h2 className='terms-heading'>Email & Mobile Phone Policy</h2>
                         <p className='privacy-paragraph'>This policy outlines the terms and conditions regarding the use of email...</p>

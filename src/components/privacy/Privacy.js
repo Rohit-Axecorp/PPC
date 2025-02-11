@@ -11,7 +11,7 @@ export default function Privacy() {
                     </p>
                     <h4 className="privacy-heading">INTRODUCTION</h4>
                     <p className="privacy-paragraph">
-                        At Panda Publishing Agency, we are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner...
+                        At London Book Publishers, we are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner...
                     </p>
                     <h4 className="privacy-heading">2. Information We Collect</h4>
                     <p className="privacy-paragraph"><b>Personal Information:</b> When you sign up for our services, subscribe to our communications, or interact with us...</p>
@@ -38,7 +38,7 @@ export default function Privacy() {
                     <p className="privacy-paragraph">We hold a policy of using the pseudonym...</p>
                     <p className="privacy-paragraph"><b>Opt-Out:</b> You can opt out of SMS communications...</p>
                     <h4 className="privacy-heading">12. Contact Us</h4>
-                    <p className="privacy-paragraph">If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:support@pandapublishing.agency">support@pandapublishing.agency</a> or <a href="tel:+12155167659">+1 215 516 7659</a>.</p>
+                    <p className="privacy-paragraph">If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:info@londonbookpublishers.com">info@londonbookpublishers.com</a> or <a href="tel:+44 020 4615 6000">+44 020 4615 6000</a>.</p>
                 </div>
             </div>
         </section>
